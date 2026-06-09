@@ -1,0 +1,13 @@
+﻿dimension,feature,exists_in_dataset,coverage_ratio,higher_is_better,dimension_weight
+accessibility,bus_unique_lines_300m,True,1.0,True,0.35
+accessibility,metro_count_500m,True,1.0,True,0.35
+accessibility,metro_nearest_m,True,1.0,False,0.35
+accessibility,tram_nearest_m,True,1.0,False,0.35
+accessibility,bike_lane_len_300m,True,1.0,True,0.35
+accessibility,bus_nearest_m,True,1.0,False,0.35
+activity,poi_count_300m,True,1.0,True,0.25
+socioeconomic,total_population,True,1.0,True,0.25
+socioeconomic,income_2022_house,True,1.0,True,0.25
+socioeconomic,education_college,True,1.0,True,0.25
+socioeconomic,unemployment_percentage,True,0.9411764705882353,False,0.25
+topography,mean_slope_150m,True,0.9981617647058824,False,0.15

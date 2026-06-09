@@ -1,0 +1,7 @@
+﻿analysis,value
+score_vs_target_pearson,-0.0424795678815503
+score_vs_target_spearman,-0.030007201816396878
+pred_vs_target_pearson,0.8810814506667654
+pred_vs_target_spearman,0.8802436991827497
+top_feature_name,mean_altitude_150m
+top_feature_importance,0.34848598

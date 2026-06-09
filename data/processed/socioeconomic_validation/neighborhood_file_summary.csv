@@ -1,0 +1,2 @@
+﻿file,type,exists,has_neighborhood,rows,raw_non_null,std_non_null,raw_unique,std_unique,std_duplicates_rows,sample_raw_1,sample_std_1
+socioeconomic_neighborhood_unemployment.csv,neighborhood,True,True,73,73,73,73,73,0,Baró de Viver,baro de viver

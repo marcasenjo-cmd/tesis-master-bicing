@@ -1,0 +1,545 @@
+﻿station_id,name,neighborhood,explanatory_score_0_100,explanatory_score_percentile,bikes_ratio_capacity_mean,target_percentile_0_100,structural_gap_score,score_interpretation,pred__xgboost,prediction_percentile_0_100,predictive_gap,predictive_interpretation
+536,Estación de TESTING (no usuarios),la Marina del Prat Vermell,13.55,0.37,0.9117647058823528,100.0,-99.63,Infravalorada por score,0.2876635,47.7,0.624101,Infrapredicha por modelo
+424,"PG. MARÍTIM DE LA BARCELONETA, 6",la Barceloneta,25.79,6.26,0.6729524795911064,96.5,-90.24,Infravalorada por score,0.6500709,99.08,0.022882,Infrapredicha por modelo
+398,PG. MARÍTIM DE LA BARCELONETA/ANDREA DÒ,la Barceloneta,21.63,2.58,0.5997593283816562,91.71,-89.13,Infravalorada por score,0.48211578,80.29,0.117644,Infrapredicha por modelo
+31,PL. DEL MAR,la Barceloneta,29.98,9.02,0.6623979770667467,96.13,-87.11,Infravalorada por score,0.65927446,99.45,0.003124,Infrapredicha por modelo
+32,LA BARCELONETA (CN BARCELONETA),la Barceloneta,24.32,4.6,0.5786310194878402,90.42,-85.82,Infravalorada por score,0.6213756,97.24,-0.042745,Sobrepredicha por modelo
+116,"C/ DEL DR. AIGUADER, 72 / PG. SALVAT",la Barceloneta,21.19,2.39,0.5474673663931976,86.92,-84.53,Infravalorada por score,0.46665335,77.72,0.080814,Infrapredicha por modelo
+33,"C/ PONTEVEDRA, 58B | C/ JUDICI",la Barceloneta,37.03,20.99,0.708382925338566,99.08,-78.09,Infravalorada por score,0.66961086,100.0,0.038772,Infrapredicha por modelo
+377,PL. ICTÍNEO,el Barri Gòtic,35.96,18.97,0.6759283963381081,96.87,-77.9,Infravalorada por score,0.44288847,72.74,0.23304,Infrapredicha por modelo
+344,"C/ CIUTAT D'ASUNCIÓN, 73 / POTOSÍ",Baró de Viver,25.6,5.89,0.5166541541541542,82.69,-76.8,Infravalorada por score,0.49225092,81.22,0.024403,Infrapredicha por modelo
+516,"C/ SANT ADRIÀ, 88",el Bon Pastor,31.45,11.42,0.5447625484800206,86.19,-74.77,Infravalorada por score,0.50700575,83.61,0.037757,Infrapredicha por modelo
+162,"C/ RAMON TURRÓ, 292",el Poblenou,38.88,24.13,0.6992213282535863,98.53,-74.4,Infravalorada por score,0.6255268,97.79,0.073695,Infrapredicha por modelo
+232,"C/ PALAUDÀRIES, 2",el Poble-sec,37.31,21.55,0.6368959674120819,95.03,-73.48,Infravalorada por score,0.51132905,84.16,0.125567,Infrapredicha por modelo
+411,"C/ JOSEP PLA, 67",Diagonal Mar i el Front Marítim del Poblenou,32.31,12.34,0.5393781654473833,85.82,-73.48,Infravalorada por score,0.5435943,88.95,-0.004216,Sobrepredicha por modelo
+349,"C/ DE L'ENERGIA, 2 / ALTS FORNS",la Marina de Port,22.32,3.13,0.4596562711482066,75.69,-72.56,Infravalorada por score,0.38350996,64.83,0.076146,Infrapredicha por modelo
+174,"PG. DE GARCIA FÀRIA, 21/ESPRONCEDA",Diagonal Mar i el Front Marítim del Poblenou,36.32,19.89,0.6058713590815415,92.08,-72.19,Infravalorada por score,0.60976267,96.32,-0.003891,Sobrepredicha por modelo
+35,"C/ SANT RAMON DE PENYAFORT, 1",el Besòs i el Maresme,30.81,10.68,0.514282556010228,82.14,-71.46,Infravalorada por score,0.5194682,85.27,-0.005186,Sobrepredicha por modelo
+446,"PG. JOAN DE BORBÓ, 42",la Barceloneta,40.14,27.26,0.6938085034397203,98.16,-70.9,Infravalorada por score,0.66509753,99.82,0.028711,Infrapredicha por modelo
+234,"PG. DE L´EXPOSICIÓ,34",el Poble-sec,27.44,7.55,0.4766986297344682,78.27,-70.72,Infravalorada por score,0.28492028,47.51,0.191778,Infrapredicha por modelo
+565,"C/ FRA JUNÍPER SERRA, 53 | C/ SANTANDER",el Bon Pastor,36.91,20.44,0.5809292805569881,90.98,-70.54,Infravalorada por score,0.5332466,87.48,0.047683,Infrapredicha por modelo
+57,"LA RAMBLA, 1",el Raval,41.5,30.02,0.7354401847518244,99.45,-69.43,Infravalorada por score,0.52363765,85.82,0.211803,Infrapredicha por modelo
+539,"C/ FRANÇA XICA, 4",el Poble-sec,27.66,7.73,0.4673906230412435,76.98,-69.25,Infravalorada por score,0.44336402,72.93,0.024027,Infrapredicha por modelo
+176,"PG. DE GARCIA FÀRIA, 37/JOSEP FERRATER",Diagonal Mar i el Front Marítim del Poblenou,35.83,18.42,0.5482525366403608,87.29,-68.87,Infravalorada por score,0.5797288,93.55,-0.031476,Sobrepredicha por modelo
+11,"PG. MARITIM, 11 (DAVANT PL. BRUGADA)",la Barceloneta,23.16,3.5,0.4311798128342246,72.19,-68.69,Infravalorada por score,0.5183589,85.08,-0.087179,Sobrepredicha por modelo
+39,PL. PAU VILA (D),la Barceloneta,42.57,31.77,0.7970874283374284,99.82,-68.05,Infravalorada por score,0.55378187,90.79,0.243306,Infrapredicha por modelo
+124,C/ NOVA  BOCANA,la Barceloneta,30.71,10.13,0.4707696565184304,77.72,-67.59,Infravalorada por score,0.5440849,89.13,-0.073315,Sobrepredicha por modelo
+517,"AV. RASOS DE PEGUERA, 10",Ciutat Meridiana,22.23,2.95,0.4122691441441441,69.61,-66.66,Infravalorada por score,0.16003878,12.15,0.25223,Infrapredicha por modelo
+564,"C/ CARRERA, 1",el Poble-sec,37.33,21.73,0.5537193431780973,88.21,-66.48,Infravalorada por score,0.52601725,86.74,0.027702,Infrapredicha por modelo
+173,"AV.LITORAL, 84",el Poblenou,37.86,22.56,0.5610019237768419,88.95,-66.39,Infravalorada por score,0.5141733,84.53,0.046829,Infrapredicha por modelo
+271,"VIA DE BÀRCINO, 54",la Trinitat Vella,18.48,1.29,0.3909650041629737,65.93,-64.64,Infravalorada por score,0.2994717,49.91,0.091493,Infrapredicha por modelo
+41,PL. POETA BOSCÀ | C/ ATLÀNTIDA,la Barceloneta,43.87,35.54,0.7616230838593328,99.63,-64.09,Infravalorada por score,0.56499195,92.27,0.196631,Infrapredicha por modelo
+167,"C/ BAC DE RODA, 11",Diagonal Mar i el Front Marítim del Poblenou,43.21,34.35,0.6946911632100992,98.34,-63.99,Infravalorada por score,0.5824251,93.92,0.112266,Infrapredicha por modelo
+457,"C/ GRANADELLA, 10-19 | C/ SAS",el Bon Pastor,35.04,16.57,0.4987477616239027,80.29,-63.72,Infravalorada por score,0.5166287,84.9,-0.017881,Sobrepredicha por modelo
+49,"C/ ROSA SENSAT, 20",la Vila Olímpica del Poblenou,42.89,33.24,0.6438112438789716,95.58,-62.34,Infravalorada por score,0.54481167,89.32,0.099,Infrapredicha por modelo
+444,"C/ LLEIDA, 40",el Poble-sec,23.91,4.24,0.3916801525472633,66.48,-62.24,Infravalorada por score,0.35114673,59.85,0.040533,Infrapredicha por modelo
+12,"PG. MARITIM, 23 (HOSPITAL DEL MAR)",la Barceloneta,33.98,14.73,0.4671966120522077,76.8,-62.07,Infravalorada por score,0.54095274,88.58,-0.073756,Sobrepredicha por modelo
+544,"C/ MONTFAR, 1",la Font de la Guatlla,21.93,2.76,0.3838056206088993,64.46,-61.7,Infravalorada por score,0.30009228,50.46,0.083713,Infrapredicha por modelo
+400,MOLL ORIENTAL,la Barceloneta,25.93,6.63,0.4011364936104727,68.14,-61.51,Infravalorada por score,0.46893874,78.08,-0.067802,Sobrepredicha por modelo
+157,"C/ LLULL, 465",el Besòs i el Maresme,44.46,36.83,0.691359043952982,97.97,-61.14,Infravalorada por score,0.5459483,89.5,0.145411,Infrapredicha por modelo
+451,"C/ PALLARS, 504",el Besòs i el Maresme,43.52,34.99,0.6594737039537849,95.95,-60.96,Infravalorada por score,0.53363824,87.66,0.125835,Infrapredicha por modelo
+397,AV. LITORAL (PG MARÍTIM DEL PORT OLÍMPI,la Vila Olímpica del Poblenou,38.74,23.57,0.5266848884542408,84.16,-60.59,Infravalorada por score,0.5570507,91.34,-0.030366,Sobrepredicha por modelo
+316,"C/ CANTÀBRIA, 55",la Verneda i la Pau,37.15,21.18,0.5075441954734827,81.4,-60.22,Infravalorada por score,0.55050313,90.42,-0.042959,Sobrepredicha por modelo
+448,"C/ RAMÓN TURRÓ, 160",el Poblenou,45.05,38.31,0.6876657161438791,97.79,-59.48,Infravalorada por score,0.61964697,97.05,0.068019,Infrapredicha por modelo
+345,PL. TERESA DE CLARAMUNT/C/ DELS FERROCA,la Marina de Port,32.4,12.71,0.4263360072308214,71.27,-58.56,Infravalorada por score,0.37038383,62.25,0.055952,Infrapredicha por modelo
+178,"PG. DE GARCIA FÀRIA, 85",Diagonal Mar i el Front Marítim del Poblenou,44.24,36.46,0.6367057606214979,94.84,-58.38,Infravalorada por score,0.5547523,90.98,0.081953,Infrapredicha por modelo
+515,"C/ SANT ADRIÀ, 43",el Bon Pastor,30.79,10.31,0.4053658765989466,68.51,-58.2,Infravalorada por score,0.43377346,71.45,-0.028408,Sobrepredicha por modelo
+254,"RAMBLA DE L'ONZE DE SETEMBRE, 69",Sant Andreu,37.63,21.92,0.4941718376260963,79.93,-58.01,Infravalorada por score,0.35068336,59.48,0.143488,Infrapredicha por modelo
+340,"C/ SANT ADRIÀ, 113",el Bon Pastor,42.77,32.78,0.5775350896945133,90.06,-57.28,Infravalorada por score,0.49765304,81.95,0.079882,Infrapredicha por modelo
+343,CAMPANA DE LA MAQUINISTA (SAO PAULO I P,el Bon Pastor,43.4,34.62,0.5923290284523764,91.53,-56.91,Infravalorada por score,0.4344869,71.64,0.157842,Infrapredicha por modelo
+190,"AV. LITORAL, 72",el Poblenou,32.34,12.52,0.4086887610997094,69.24,-56.72,Infravalorada por score,0.52452815,86.37,-0.115839,Sobrepredicha por modelo
+40,"C/ DOCTOR AIGUADER, 2",la Barceloneta,44.07,36.1,0.6109610454573876,92.63,-56.53,Infravalorada por score,0.6002605,95.58,0.010701,Infrapredicha por modelo
+540,"C/ MANDONI, 6",la Font de la Guatlla,32.26,12.15,0.4009301014656144,67.96,-55.81,Infravalorada por score,0.45568877,75.69,-0.054759,Sobrepredicha por modelo
+389,RECINTE PARC DE LA CIUTADELLA,"Sant Pere, Santa Caterina i la Ribera",46.14,40.88,0.6647386998561344,96.32,-55.44,Infravalorada por score,0.52598923,86.56,0.138749,Infrapredicha por modelo
+482,"PG. UNIVERSAL, 29 | C/ DOCTOR LETAMENDI",Horta,23.58,3.87,0.3589576579135528,59.12,-55.25,Infravalorada por score,0.122257285,1.29,0.2367,Infrapredicha por modelo
+351,"C/ JANE ADDAMS, 26/ CRTA. DEL PRAT",la Marina de Port,35.84,18.6,0.4439071203412463,73.3,-54.7,Infravalorada por score,0.4598131,76.8,-0.015906,Sobrepredicha por modelo
+361,PG. DE COLOM (LES RAMBLES),el Barri Gòtic,44.29,36.65,0.5880495091762697,91.34,-54.69,Infravalorada por score,0.53981483,88.21,0.048235,Infrapredicha por modelo
+253,"C/ ONZE DE SETEMBRE, 37-39",Sant Andreu,34.75,16.02,0.4195571232608269,70.53,-54.51,Infravalorada por score,0.40573442,68.69,0.013823,Infrapredicha por modelo
+125,"PG. MARíTIM, 31 B (ANNEXA A LA 12)",la Barceloneta,35.79,17.86,0.4298874024395487,72.01,-54.15,Infravalorada por score,0.5108086,83.98,-0.080921,Sobrepredicha por modelo
+355,"C/ RIERA BLANCA, 123",Sants - Badal,35.67,17.68,0.4256430543326144,71.09,-53.41,Infravalorada por score,0.3974519,67.77,0.028191,Infrapredicha por modelo
+114,"PL. JEAN GENET,  1",el Raval,45.57,39.78,0.6159070447895566,93.0,-53.22,Infravalorada por score,0.52999926,87.11,0.085908,Infrapredicha por modelo
+341,"PG. D'ENRIC SANCHIS, 33",el Bon Pastor,36.46,20.07,0.4417114988849847,72.93,-52.86,Infravalorada por score,0.57256424,93.0,-0.130853,Sobrepredicha por modelo
+437,"PG. ZONA FRANCA, 9",la Marina del Prat Vermell,36.5,20.26,0.4403001918519355,72.74,-52.48,Infravalorada por score,0.53532666,88.03,-0.095026,Sobrepredicha por modelo
+252,"RAMBLA DE L'ONZE DE SETEMBRE, 31",Sant Andreu,37.67,22.1,0.4476068463667111,74.03,-51.93,Infravalorada por score,0.39260218,66.85,0.055005,Infrapredicha por modelo
+134,"C/ BAC DE RODA, 157",Provençals del Poblenou,42.22,31.31,0.5189591844485315,83.24,-51.93,Infravalorada por score,0.47845864,79.56,0.040501,Infrapredicha por modelo
+250,"C/ PORTUGAL, 3",la Sagrera,39.11,24.86,0.4643816867791631,76.24,-51.38,Infravalorada por score,0.40497044,68.51,0.059411,Infrapredicha por modelo
+375,WORLD TRADE CENTER,el Raval,17.19,0.74,0.3040392509418591,51.75,-51.01,Infravalorada por score,0.30939963,51.93,-0.00536,Sobrepredicha por modelo
+567,"C/ RAMON TURRÓ, 182 (xamfrà)",el Poblenou,46.81,42.73,0.6244391323941454,93.55,-50.82,Infravalorada por score,0.6382721,98.34,-0.013833,Sobrepredicha por modelo
+117,"C/ ROSA SENSAT, 12",la Vila Olímpica del Poblenou,47.79,44.94,0.6411034364039335,95.4,-50.46,Infravalorada por score,0.57690626,93.19,0.064197,Infrapredicha por modelo
+440,"C/ SELVA DE MAR, 230",Sant Martí de Provençals,41.73,30.29,0.5031400058457555,80.66,-50.37,Infravalorada por score,0.49802828,82.14,0.005112,Infrapredicha por modelo
+168,SELVA DE MAR / PG. DEL TAULAT,Diagonal Mar i el Front Marítim del Poblenou,48.74,47.51,0.685982893132194,97.42,-49.91,Infravalorada por score,0.5464071,89.69,0.139576,Infrapredicha por modelo
+392,"C/ RAMON TURRÓ, 4",la Vila Olímpica del Poblenou,42.29,31.49,0.5071397122695955,81.22,-49.73,Infravalorada por score,0.42882046,70.35,0.078319,Infrapredicha por modelo
+259,"C/ DE BARTRINA, 14",Sant Andreu,24.85,5.43,0.3234120228502251,55.06,-49.63,Infravalorada por score,0.32269242,53.96,0.00072,Infrapredicha por modelo
+131,"RBLA. GUIPÚSCOA, 158",la Verneda i la Pau,41.35,29.83,0.4901605365709761,79.19,-49.36,Infravalorada por score,0.4320937,71.09,0.058067,Infrapredicha por modelo
+141,"C/ BILBAO, 174",Provençals del Poblenou,39.87,26.34,0.4595822075875267,75.51,-49.17,Infravalorada por score,0.49820402,82.5,-0.038622,Sobrepredicha por modelo
+458,"C/ TUCUMÁN, 21",el Bon Pastor,30.59,9.94,0.3565691579303348,58.75,-48.81,Infravalorada por score,0.4319682,70.9,-0.075399,Sobrepredicha por modelo
+171,"AV. LITORAL, 172",la Vila Olímpica del Poblenou,35.98,19.34,0.3981133307220263,67.4,-48.06,Infravalorada por score,0.45502132,75.51,-0.056908,Sobrepredicha por modelo
+410,PG.DE COLOM (LES RAMBLES),el Barri Gòtic,44.52,37.02,0.5308896113141285,85.08,-48.06,Infravalorada por score,0.57160497,92.82,-0.040715,Sobrepredicha por modelo
+399,"C/ PAVIA, 3",Sants,44.15,36.28,0.5213031952702307,83.43,-47.15,Infravalorada por score,0.396183,67.4,0.12512,Infrapredicha por modelo
+170,"AV. LITORAL, 40 (D)",la Vila Olímpica del Poblenou,41.12,28.91,0.4546443681509224,74.95,-46.04,Infravalorada por score,0.50497895,83.24,-0.050335,Sobrepredicha por modelo
+183,"C/ GAVÀ, 1",la Bordeta,40.21,27.44,0.4452238637645201,73.48,-46.04,Infravalorada por score,0.37285906,62.62,0.072365,Infrapredicha por modelo
+10,"C/ 60, NÚMERO 25",la Marina del Prat Vermell,30.85,10.87,0.3367412492428553,56.72,-45.85,Infravalorada por score,0.43657473,72.19,-0.099833,Sobrepredicha por modelo
+298,"C/ ANDREU NIN, 22",Porta,23.64,4.05,0.2956286615592609,49.72,-45.67,Infravalorada por score,0.33480152,56.35,-0.039173,Sobrepredicha por modelo
+352,"C/RADI,10/GRAN VIA DE LES CORTS CATALA",la Marina de Port,34.15,14.92,0.3666669353668563,60.59,-45.67,Infravalorada por score,0.4805105,79.93,-0.113844,Sobrepredicha por modelo
+264,"C/ FERRAN JUNOY, 10",el Bon Pastor,32.57,13.26,0.3440549804698621,57.83,-44.57,Infravalorada por score,0.40799585,68.88,-0.063941,Sobrepredicha por modelo
+155,"C/ PUJADES, 311/ FLUVIÀ",Diagonal Mar i el Front Marítim del Poblenou,49.31,48.8,0.6180485125084516,93.19,-44.39,Infravalorada por score,0.5309661,87.29,0.087082,Infrapredicha por modelo
+436,"PG. ZONA FRANCA, 54",la Marina de Port,32.46,13.08,0.3381746121332982,57.27,-44.19,Infravalorada por score,0.5161023,84.71,-0.177928,Sobrepredicha por modelo
+404,"C/ JUAN GRIS, 28",la Bordeta,27.14,7.18,0.3018084686513306,51.2,-44.02,Infravalorada por score,0.47588825,79.01,-0.17408,Sobrepredicha por modelo
+166,"C/ BILBAO, 2",el Poblenou,52.09,54.88,0.7070280240625458,98.9,-44.02,Infravalorada por score,0.6400747,98.53,0.066953,Infrapredicha por modelo
+376,WORLD  TRADE CENTER,el Raval,19.42,1.66,0.2721398188118135,45.49,-43.83,Infravalorada por score,0.33992898,57.27,-0.067789,Sobrepredicha por modelo
+415,"RAMBLA DEL RAVAL, 13",el Raval,45.21,38.67,0.5142992445597023,82.32,-43.65,Infravalorada por score,0.5195778,85.45,-0.005279,Sobrepredicha por modelo
+459,"PG. SANTA COLOMA, 105",la Trinitat Vella,26.8,6.81,0.2983101745371857,50.46,-43.65,Infravalorada por score,0.28300318,46.96,0.015307,Infrapredicha por modelo
+156,"C/ SELVA DE MAR, 46",Diagonal Mar i el Front Marítim del Poblenou,48.13,46.59,0.572557191696272,89.5,-42.91,Infravalorada por score,0.55283946,90.61,0.019718,Infrapredicha por modelo
+566,"C/ CRISTÓBAL DE MOURA, 163 (xamfrà)",Provençals del Poblenou,51.51,53.04,0.6477016674177557,95.76,-42.72,Infravalorada por score,0.5348496,87.85,0.112852,Infrapredicha por modelo
+138,"GRAN VIA DE LES CORTS CATALANES,  1118",Provençals del Poblenou,45.8,40.7,0.514315972616211,82.5,-41.8,Infravalorada por score,0.44424298,73.85,0.070073,Infrapredicha por modelo
+179,"PG. ZONA FRANCA, 244",la Marina de Port,46.41,41.62,0.5179668997406113,82.87,-41.25,Infravalorada por score,0.44345576,73.11,0.074511,Infrapredicha por modelo
+7,"PG. PUJADES,  1 (JUTJATS)","Sant Pere, Santa Caterina i la Ribera",48.1,46.41,0.551401506328131,87.66,-41.25,Infravalorada por score,0.5091135,83.79,0.042288,Infrapredicha por modelo
+233,"C/ NOU DE LA RAMBLA, 164",el Poble-sec,37.71,22.28,0.3746147238643827,62.62,-40.34,Infravalorada por score,0.3873979,65.93,-0.012783,Sobrepredicha por modelo
+449,"C/ BOLIVIA, 120",Provençals del Poblenou,47.21,44.01,0.523136155639816,83.79,-39.78,Infravalorada por score,0.55511594,91.16,-0.03198,Sobrepredicha por modelo
+292,"C/ AMILCAR, 1",Vilapicina i la Torre Llobeta,29.73,8.47,0.2904037558685446,47.88,-39.41,Infravalorada por score,0.27906716,45.67,0.011337,Infrapredicha por modelo
+182,"C/ SANT PERE D´ABANTO, 2",Hostafrancs,40.98,28.73,0.4002844327754075,67.77,-39.04,Infravalorada por score,0.41213593,69.24,-0.011851,Sobrepredicha por modelo
+59,"C/ AGUSTÍ DURAN I SANPERE, 1",el Raval,46.88,42.91,0.5082799393320333,81.77,-38.86,Infravalorada por score,0.4778474,79.37,0.030433,Infrapredicha por modelo
+469,"C/ SANT FRANCESC XAVIER, 1",la Prosperitat,34.44,15.47,0.3201848303843119,54.33,-38.86,Infravalorada por score,0.17683685,18.78,0.143348,Infrapredicha por modelo
+237,"C/ RIUS I TAULET, 4",el Poble-sec,35.95,18.78,0.3418140935895804,57.46,-38.68,Infravalorada por score,0.3743863,62.98,-0.032572,Sobrepredicha por modelo
+476,"C/ PERIODISTES, 9",el Guinardó,29.92,8.84,0.2827827827827828,47.15,-38.31,Infravalorada por score,0.2487012,38.86,0.034082,Infrapredicha por modelo
+180,"GRAN VIA DE LES CORTS CATALANES, 179 (D)",la Bordeta,47.99,46.04,0.5270956241734229,84.35,-38.31,Infravalorada por score,0.43137157,70.72,0.095724,Infrapredicha por modelo
+481,"PG. FABRA I PUIG, 411",Horta,11.53,0.18,0.2416444394354909,38.31,-38.13,Infravalorada por score,0.12338431,1.47,0.11826,Infrapredicha por modelo
+136,"GRAN VIA DE LES CORTS CATALANES,  1062",Provençals del Poblenou,41.94,30.94,0.4071938725338442,68.69,-37.75,Infravalorada por score,0.5240931,86.0,-0.116899,Sobrepredicha por modelo
+144,"C/ CASTELLA,  28 / DIAGONAL",el Poblenou,51.67,53.5,0.5861432120999883,91.16,-37.66,Infravalorada por score,0.5296056,86.92,0.056538,Infrapredicha por modelo
+175,"C/ LLULL, 309",Diagonal Mar i el Front Marítim del Poblenou,52.84,57.64,0.6321133412042503,94.48,-36.84,Infravalorada por score,0.5952278,94.84,0.036886,Infrapredicha por modelo
+431,"AV. JOAN XXIII, 17",la Maternitat i Sant Ramon,33.13,13.81,0.2987938225679179,50.64,-36.83,Infravalorada por score,0.21162651,28.91,0.087167,Infrapredicha por modelo
+8,"PG. PUJADES, 2","Sant Pere, Santa Caterina i la Ribera",48.93,48.16,0.5305866211038625,84.9,-36.74,Infravalorada por score,0.49715197,81.77,0.033435,Infrapredicha por modelo
+541,"C/ MARBRE, 2",la Marina de Port,10.57,0.0,0.2386050953352109,36.65,-36.65,Infravalorada por score,0.34103134,57.46,-0.102426,Sobrepredicha por modelo
+347,"C/ ALTS FORNS, 77",la Marina de Port,47.04,43.65,0.4914788752256318,79.74,-36.09,Infravalorada por score,0.41543764,69.43,0.076041,Infrapredicha por modelo
+396,"C/ JOAN MIRÓ, 2-12",la Vila Olímpica del Poblenou,47.26,44.2,0.4985255055409573,80.11,-35.91,Infravalorada por score,0.5475731,90.06,-0.049048,Sobrepredicha por modelo
+143,"C/ SANCHO DE ÁVILA, 170 / LLACUNA",el Parc i la Llacuna del Poblenou,55.22,62.06,0.6864967658797182,97.61,-35.55,Infravalorada por score,0.5901288,94.48,0.096368,Infrapredicha por modelo
+425,"C/ DE CERVELLÓ, 5",el Raval,52.48,56.35,0.6040939622499907,91.9,-35.55,Infravalorada por score,0.591797,94.66,0.012297,Infrapredicha por modelo
+147,"RAMBLA PRIM, 79",el Besòs i el Maresme,51.88,54.14,0.5758259721694999,89.69,-35.55,Infravalorada por score,0.60607195,96.13,-0.030246,Sobrepredicha por modelo
+161,"C/ RAMON TURRÓ, 91",la Vila Olímpica del Poblenou,50.07,49.72,0.52971692793504,84.71,-34.99,Infravalorada por score,0.559559,91.71,-0.029842,Sobrepredicha por modelo
+130,"RAMBLA DE GUIPÚSCOA, 103 / CANTÀBRIA",la Verneda i la Pau,46.68,42.17,0.4657642413987591,76.61,-34.44,Infravalorada por score,0.45973295,76.61,0.006031,Infrapredicha por modelo
+478,"C/ ESCULTOR LLIMONA, 7",Vilapicina i la Torre Llobeta,24.85,5.43,0.2463232254913012,39.78,-34.35,Infravalorada por score,0.1715315,16.76,0.074792,Infrapredicha por modelo
+163,"AV. ICÀRIA, 202",la Vila Olímpica del Poblenou,50.56,51.38,0.5381616604140964,85.64,-34.26,Infravalorada por score,0.5783953,93.37,-0.040234,Sobrepredicha por modelo
+246," C/ GARCILASO, 56",la Sagrera,42.64,32.23,0.3915492770395201,66.3,-34.07,Infravalorada por score,0.38090062,64.27,0.010649,Infrapredicha por modelo
+285,"C/ MALATS, 98-100",Sant Andreu,32.43,12.89,0.2787318268905669,46.59,-33.7,Infravalorada por score,0.3123373,52.3,-0.033605,Sobrepredicha por modelo
+192,"C/ JOAN GÜELL, 50",Sants,40.44,27.81,0.3707030705002307,61.51,-33.7,Infravalorada por score,0.26621297,43.28,0.10449,Infrapredicha por modelo
+128,"RAMBLA DE GUIPÚSCOA, 43/FLUVIA",Sant Martí de Provençals,49.04,48.43,0.50824576708557,81.58,-33.15,Infravalorada por score,0.43071082,70.53,0.077535,Infrapredicha por modelo
+348,JARDINS DE CAN FERRERO/PG.DE LA ZONA FR,la Marina de Port,39.88,26.61,0.3590610328638497,59.67,-33.06,Infravalorada por score,0.46606162,77.35,-0.107001,Sobrepredicha por modelo
+247,"C/ FELIPE II, 112",la Sagrera,42.57,31.77,0.3848948953174246,64.83,-33.06,Infravalorada por score,0.3310003,55.62,0.053895,Infrapredicha por modelo
+527,"PG. OLIMPIC, 8",el Poble-sec,17.53,0.92,0.2263775817880295,33.7,-32.78,Infravalorada por score,0.21420787,29.83,0.01217,Infrapredicha por modelo
+55,"LA RAMBLA, 56",el Barri Gòtic,51.89,54.33,0.5479709654368348,87.11,-32.78,Infravalorada por score,0.502203,82.87,0.045768,Infrapredicha por modelo
+339,"C/ RAMON TURRÓ, 246",el Poblenou,56.96,66.67,0.7163975798903597,99.26,-32.59,Infravalorada por score,0.6646697,99.63,0.051728,Infrapredicha por modelo
+537,"AV. ESTADI, 12",el Poble-sec,39.24,25.23,0.3430506745266977,57.64,-32.41,Infravalorada por score,0.18391804,21.92,0.159133,Infrapredicha por modelo
+381,"C/ AGUSTÍ DURAN I SANPERE, 10",el Raval,44.93,37.57,0.412769764123601,69.8,-32.23,Infravalorada por score,0.44950256,74.95,-0.036733,Sobrepredicha por modelo
+165,"C/ DEL DOCTOR TRUETA, 222",el Poblenou,54.62,60.77,0.6112591258375341,92.82,-32.05,Infravalorada por score,0.626853,97.97,-0.015594,Sobrepredicha por modelo
+450,"C/ CRISTOBAL DE MOURA, 84",Provençals del Poblenou,52.28,55.99,0.5532952563070317,88.03,-32.04,Infravalorada por score,0.6157227,96.69,-0.062427,Sobrepredicha por modelo
+152,"C/ PUJADES, 121",el Poblenou,53.63,59.12,0.5801350683577665,90.79,-31.67,Infravalorada por score,0.524398,86.19,0.055737,Infrapredicha por modelo
+486,"C/ PORTO, 35 | AV. ESTATUT DE CATALUNYA",Horta,21.16,2.21,0.2254001352569882,33.52,-31.31,Infravalorada por score,0.16559575,14.55,0.059804,Infrapredicha por modelo
+272,"C/ CONCEPCIÓ ARENAL, 281",Sant Andreu,41.15,29.1,0.3648257577070373,60.04,-30.94,Infravalorada por score,0.2648616,42.36,0.099964,Infrapredicha por modelo
+244,"C/ FELIP II, 214",el Congrés i els Indians,37.0,20.63,0.3038825002846408,51.57,-30.94,Infravalorada por score,0.2817977,46.22,0.022085,Infrapredicha por modelo
+452,"GRAN VIA DE LES CORTS CATALANES, 1157 (D)",el Besòs i el Maresme,43.44,34.81,0.3891523162487944,65.56,-30.75,Infravalorada por score,0.4856279,80.48,-0.096476,Sobrepredicha por modelo
+439,"RBLA. BADAL, 73 | C/ CONSTITUCIÓ",la Bordeta,48.93,48.16,0.4819528922930589,78.64,-30.48,Infravalorada por score,0.46641472,77.53,0.015538,Infrapredicha por modelo
+464,"AV. RIO DE JANEIRO, 96",la Prosperitat,18.32,1.1,0.2161751992181627,31.49,-30.39,Infravalorada por score,0.2215435,32.04,-0.005368,Sobrepredicha por modelo
+257,"C/ SANT ADRIÀ, 2-8",Sant Andreu,35.37,16.94,0.2830908085302165,47.33,-30.39,Infravalorada por score,0.35827374,60.96,-0.075183,Sobrepredicha por modelo
+358,"C/ GOMBAU, 24","Sant Pere, Santa Caterina i la Ribera",55.94,64.09,0.6319806953609771,94.29,-30.2,Infravalorada por score,0.52138615,85.64,0.110595,Infrapredicha por modelo
+300,"C/ DE MALADETA, 1",Porta,36.18,19.71,0.2928108994828255,49.17,-29.46,Infravalorada por score,0.2487392,39.04,0.044072,Infrapredicha por modelo
+145,"C/ MARROC, 103",Provençals del Poblenou,52.53,56.72,0.5420606333483416,86.0,-29.28,Infravalorada por score,0.6251364,97.42,-0.083076,Sobrepredicha por modelo
+391,"C/ GRAN DE LA SAGRERA, 74",la Sagrera,47.62,44.75,0.4434049694419397,73.11,-28.36,Infravalorada por score,0.4160391,69.61,0.027366,Infrapredicha por modelo
+289,"C/ MÚRCIA, 64",Navas,45.18,38.49,0.3939824932644164,66.85,-28.36,Infravalorada por score,0.42336577,70.17,-0.029383,Sobrepredicha por modelo
+132,PL. VALENTÍ ALMIRALL,el Clot,52.59,57.09,0.5319270893041385,85.27,-28.18,Infravalorada por score,0.41876963,69.8,0.113157,Infrapredicha por modelo
+419,PG. DE LLUIS COMPANYS (ARC DE TRIOMF ),"Sant Pere, Santa Caterina i la Ribera",54.71,60.96,0.5647489972737264,89.13,-28.17,Infravalorada por score,0.48571202,80.66,0.079037,Infrapredicha por modelo
+269,"VIA BARCINO, 121",la Trinitat Vella,27.4,7.37,0.2299019055135866,34.81,-27.44,Infravalorada por score,0.26784778,43.83,-0.037946,Sobrepredicha por modelo
+353,C/ MUNNÉ  2-6,Sants - Badal,45.01,38.03,0.38868747315468,65.38,-27.35,Infravalorada por score,0.23375952,36.1,0.154928,Infrapredicha por modelo
+177,"C/ ROSSELLÓ, 557",el Camp de l'Arpa del Clot,43.99,35.91,0.3783296974786336,63.17,-27.26,Infravalorada por score,0.29559585,49.36,0.082734,Infrapredicha por modelo
+279,"C/ MAS CASANOVAS, 137",el Guinardó,35.99,19.52,0.2795812042881475,46.78,-27.26,Infravalorada por score,0.22503325,33.52,0.054548,Infrapredicha por modelo
+139,"GRAN VIA DE LES CORTS CATALANES,  1131",la Verneda i la Pau,41.87,30.76,0.349155544106519,58.01,-27.25,Infravalorada por score,0.39436185,67.03,-0.045206,Sobrepredicha por modelo
+296,"C/ DE ROSSELLÓ I PORCEL, 1 | AV. MERIDIANA",Porta,24.37,5.16,0.2178874674516019,32.04,-26.88,Infravalorada por score,0.35732406,60.77,-0.139437,Sobrepredicha por modelo
+185,"C/GAVÀ, 81",la Bordeta,45.63,39.96,0.3922010295277025,66.67,-26.71,Infravalorada por score,0.4493145,74.77,-0.057113,Sobrepredicha por modelo
+127,"C/ ARAGÓ, 659 / NAVAS DE TOLOSA",el Clot,42.91,33.52,0.3642184132711872,59.85,-26.33,Infravalorada por score,0.43366992,71.27,-0.069452,Sobrepredicha por modelo
+519,"C/ PEDRELL, 52",la Font d'en Fargues,24.36,4.97,0.2116424627486574,30.57,-25.6,Infravalorada por score,0.14342518,5.52,0.068217,Infrapredicha por modelo
+135,"GRAN VIA DE LES CORTS CATALANES,  981",Sant Martí de Provençals,47.51,44.57,0.4144676466326416,70.17,-25.6,Infravalorada por score,0.49806315,82.32,-0.083596,Sobrepredicha por modelo
+243,"C/ ALEXANDRE GALÍ, 1-5",el Congrés i els Indians,40.83,28.55,0.3182756937403777,54.14,-25.59,Infravalorada por score,0.27960464,45.86,0.038671,Infrapredicha por modelo
+126,PG. DE COLOM /VIA LAIETANA,el Barri Gòtic,58.62,69.15,0.6352991917974053,94.66,-25.51,Infravalorada por score,0.61946493,96.87,0.015834,Infrapredicha por modelo
+372,"C/ RIBES, 77",el Fort Pienc,49.53,49.17,0.4525399017802332,74.59,-25.42,Infravalorada por score,0.34821793,58.56,0.104322,Infrapredicha por modelo
+609,"C/ ÀVILA, 94",el Parc i la Llacuna del Poblenou,55.56,63.17,0.554015826472689,88.4,-25.23,Infravalorada por score,0.568558,92.45,-0.014542,Sobrepredicha por modelo
+408,"C/ RAMON TRIAS FARGAS, 23",la Vila Olímpica del Poblenou,45.4,39.04,0.3833596629805161,64.27,-25.23,Infravalorada por score,0.32841069,55.06,0.054949,Infrapredicha por modelo
+129,"C/ MANSO, 46",Sant Antoni,58.45,68.69,0.6276377921899798,93.74,-25.05,Infravalorada por score,0.39132583,66.48,0.236312,Infrapredicha por modelo
+47,"C/ RAMON TRIAS FARGAS, 21",la Vila Olímpica del Poblenou,45.74,40.33,0.38778024913169,65.19,-24.86,Infravalorada por score,0.40392894,68.32,-0.016149,Sobrepredicha por modelo
+37,PG. DE COLOM - VIA LAIETANA,el Barri Gòtic,60.73,73.85,0.699644950405771,98.71,-24.86,Infravalorada por score,0.6404257,98.71,0.059219,Infrapredicha por modelo
+382,"C/ LOPE DE VEGA, 79",el Poblenou,58.43,68.51,0.6193697695868132,93.37,-24.86,Infravalorada por score,0.6060216,95.95,0.013348,Infrapredicha por modelo
+309,"C/ SANT RAMON NONAT,  26",la Maternitat i Sant Ramon,39.46,25.78,0.2981195826315573,50.28,-24.5,Infravalorada por score,0.22831097,34.44,0.069809,Infrapredicha por modelo
+442,"C/ MINERIA, 30",la Marina de Port,48.02,46.22,0.4250149359976611,70.72,-24.5,Infravalorada por score,0.47091517,78.27,-0.0459,Sobrepredicha por modelo
+255,"C/ IRLANDA, 34",Sant Andreu,39.91,26.89,0.3025265607988887,51.38,-24.49,Infravalorada por score,0.36888686,61.88,-0.06636,Sobrepredicha por modelo
+357,"C/ CARDENER, 59",la Salut,24.11,4.42,0.2061006596322581,28.73,-24.31,Infravalorada por score,0.19244404,24.31,0.013657,Infrapredicha por modelo
+142,"C/ SANCHO DE ÁVILA,  104 - C/ BADAJOZ",el Parc i la Llacuna del Poblenou,56.72,65.75,0.576777285792999,89.87,-24.12,Infravalorada por score,0.4496896,75.14,0.127088,Infrapredicha por modelo
+187,"C/ DE SANT PAU, 89 - 97",el Raval,52.55,56.91,0.5042525241151522,81.03,-24.12,Infravalorada por score,0.44824734,74.59,0.056005,Infrapredicha por modelo
+148,"RONDA SANT PAU, 79",Sant Antoni,55.25,62.25,0.54531313207138,86.37,-24.12,Infravalorada por score,0.44421837,73.66,0.101095,Infrapredicha por modelo
+249,"C/ ANTILLES, 8",la Sagrera,45.01,38.03,0.3696855046499876,61.33,-23.3,Infravalorada por score,0.28112373,46.04,0.088562,Infrapredicha por modelo
+151,"C/ PALLARS, 182",el Poblenou,57.59,67.4,0.5791735133878021,90.61,-23.21,Infravalorada por score,0.60008883,95.4,-0.020915,Sobrepredicha por modelo
+506,"C/ GARRIGA I ROCA, 2",el Guinardó,37.88,22.84,0.2727450537877078,45.86,-23.02,Infravalorada por score,0.23404604,36.28,0.038699,Infrapredicha por modelo
+299,"C/ DE L'ESCULTOR ORDÓÑEZ, 55",Porta,33.07,13.63,0.2368082690445179,36.46,-22.83,Infravalorada por score,0.25553,40.33,-0.018722,Sobrepredicha por modelo
+54,"C/ SANT OLEGUER, 2",el Raval,51.02,52.12,0.4532532865075221,74.77,-22.65,Infravalorada por score,0.47241175,78.45,-0.019158,Sobrepredicha por modelo
+390,"C/ COMERÇ, 36","Sant Pere, Santa Caterina i la Ribera",60.84,74.03,0.6373820673900628,95.21,-21.18,Infravalorada por score,0.5007746,82.69,0.136607,Infrapredicha por modelo
+455,"C/ PROVENÇA, 595",el Camp de l'Arpa del Clot,49.39,48.99,0.4141362867251192,69.98,-20.99,Infravalorada por score,0.35276306,60.22,0.061373,Infrapredicha por modelo
+118,"C/ PUJADES,  3",el Parc i la Llacuna del Poblenou,50.02,49.54,0.4172385492517506,70.35,-20.81,Infravalorada por score,0.42271516,69.98,-0.005477,Sobrepredicha por modelo
+260,"CARRER DEL CINCA, 7",Sant Andreu,38.84,23.76,0.2675337572813913,44.57,-20.81,Infravalorada por score,0.34355736,58.01,-0.076024,Sobrepredicha por modelo
+428,"C/ PUJADES, 103",el Poblenou,58.76,69.43,0.5777987479442969,90.24,-20.81,Infravalorada por score,0.5962279,95.03,-0.018429,Sobrepredicha por modelo
+133,"GRAN VIA DE LES CORTS CATALANES,  902",Provençals del Poblenou,55.5,62.98,0.5223968897903989,83.61,-20.63,Infravalorada por score,0.4871628,81.03,0.035234,Infrapredicha por modelo
+184,"C/ QUETZAL, 22-24",la Bordeta,45.77,40.52,0.3692395640345167,60.96,-20.44,Infravalorada por score,0.45746607,76.06,-0.088227,Sobrepredicha por modelo
+87,"C/ ROCAFORT, 187",la Nova Esquerra de l'Eixample,42.61,32.04,0.3049465270741867,52.3,-20.26,Infravalorada por score,0.2560217,40.52,0.048925,Infrapredicha por modelo
+505,"C/ CAMÈLIES, 78",el Baix Guinardó,33.66,14.18,0.2282887412911053,34.44,-20.26,Infravalorada por score,0.18997486,23.57,0.038314,Infrapredicha por modelo
+17,"AV. MERIDIANA, 47 (D)",el Fort Pienc,45.46,39.41,0.359026369168357,59.48,-20.07,Infravalorada por score,0.34591722,58.38,0.013109,Infrapredicha por modelo
+310,C/ JOSEP SAMITIER | AV. JOAN XXIII,la Maternitat i Sant Ramon,31.18,11.23,0.2133420213943502,30.94,-19.71,Infravalorada por score,0.2598347,41.44,-0.046493,Sobrepredicha por modelo
+137,"GRAN VIA DE LES CORTS CATALANES , 1041",Sant Martí de Provençals,45.5,39.59,0.3589588732394366,59.3,-19.71,Infravalorada por score,0.5426413,88.77,-0.183682,Sobrepredicha por modelo
+241,"C/ TEODOR LLORENTE, 1",el Guinardó,44.82,37.2,0.3326607672033539,56.35,-19.15,Infravalorada por score,0.3032288,50.83,0.029432,Infrapredicha por modelo
+238,"C/ ESPRONCEDA, 298",Navas,47.8,45.12,0.3833043390565514,64.09,-18.97,Infravalorada por score,0.39885813,68.14,-0.015554,Sobrepredicha por modelo
+314,"RAMBLA DEL BRASIL, 44",Sants,38.91,24.31,0.2596576191012501,43.28,-18.97,Infravalorada por score,0.33204454,55.8,-0.072387,Sobrepredicha por modelo
+297,"C/ TURÓ BLAU, 1-3",la Prosperitat,30.8,10.5,0.2082156042796865,29.1,-18.6,Infravalorada por score,0.18209207,20.81,0.026124,Infrapredicha por modelo
+112,"C/ FLORIDABLANCA,  49",Sant Antoni,58.34,68.14,0.5470113463562989,86.74,-18.6,Infravalorada por score,0.34822714,58.75,0.198784,Infrapredicha por modelo
+342,"C/ ROC BORONAT, 134",el Parc i la Llacuna del Poblenou,51.58,53.22,0.427140336086048,71.45,-18.23,Infravalorada por score,0.5403369,88.4,-0.113197,Sobrepredicha por modelo
+274,"RAMBLA FABRA I PUIG, 67",Sant Andreu,39.56,26.15,0.2614227076468583,43.46,-17.31,Infravalorada por score,0.30943903,52.12,-0.048016,Sobrepredicha por modelo
+312,"C/ ARIZALA, 77",la Maternitat i Sant Ramon,38.05,23.02,0.2479489973571813,40.33,-17.31,Infravalorada por score,0.25034064,39.23,-0.002392,Sobrepredicha por modelo
+211,"C/ SANCHO DE ÁVILA, 60-64",el Parc i la Llacuna del Poblenou,59.44,70.35,0.5498077974716119,87.48,-17.13,Infravalorada por score,0.4756716,78.82,0.074136,Infrapredicha por modelo
+212,"AV. SARRIÀ, 163",les Corts,42.04,31.12,0.2919108531500056,48.25,-17.13,Infravalorada por score,0.15293269,9.21,0.138978,Infrapredicha por modelo
+402,PG. DE COLOM (VIA LAIETANA),el Barri Gòtic,59.68,70.72,0.5530140845070423,87.85,-17.13,Infravalorada por score,0.62552536,97.61,-0.072511,Sobrepredicha por modelo
+159,"AV. DIAGONAL, 26",el Besòs i el Maresme,64.48,80.11,0.6801167281025101,97.24,-17.13,Infravalorada por score,0.48585942,80.85,0.194257,Infrapredicha por modelo
+256,"C/ MALATS, 28-30",Sant Andreu,40.51,27.99,0.2702475205680153,44.94,-16.95,Infravalorada por score,0.32801864,54.88,-0.057771,Sobrepredicha por modelo
+288,PL. VIRREI AMAT,Vilapicina i la Torre Llobeta,42.7,32.6,0.2955259524346258,49.54,-16.94,Infravalorada por score,0.22899967,34.99,0.066526,Infrapredicha por modelo
+346,"PG. ZONA FRANCA, 182",la Marina de Port,51.36,52.49,0.4086153189137589,69.06,-16.57,Infravalorada por score,0.4582606,76.24,-0.049645,Sobrepredicha por modelo
+479,"PG. FABRA I PUIG, 344",el Turó de la Peira,33.97,14.55,0.2137893471564871,31.12,-16.57,Infravalorada por score,0.17552468,17.68,0.038265,Infrapredicha por modelo
+480,"PG. FABRA I PUIG, 385",Horta,30.21,9.58,0.1911078717201166,25.97,-16.39,Infravalorada por score,0.15099175,8.1,0.040116,Infrapredicha por modelo
+13,"C/ MARINA, 25-33",la Vila Olímpica del Poblenou,53.96,59.67,0.4611224775294652,76.06,-16.39,Infravalorada por score,0.45372185,75.32,0.007401,Infrapredicha por modelo
+483,"BAIXADA DE LA PLANA, 35",Horta,34.21,15.1,0.2142444482020065,31.31,-16.21,Infravalorada por score,0.1586772,11.6,0.055567,Infrapredicha por modelo
+416,"RAMBLA DEL RAVAL, 20",el Raval,48.71,47.33,0.3792751084417751,63.54,-16.21,Infravalorada por score,0.463335,77.16,-0.08406,Sobrepredicha por modelo
+214,"C/ JOSÉ DE  AGULLÓ, 9",les Tres Torres,40.82,28.36,0.2650146693748589,44.38,-16.02,Infravalorada por score,0.18183798,20.44,0.083177,Infrapredicha por modelo
+158,"RAMBLA DE PRIM, 19",el Besòs i el Maresme,59.06,69.61,0.535507130500516,85.45,-15.84,Infravalorada por score,0.611912,96.5,-0.076405,Sobrepredicha por modelo
+409,"C/ JOAN D'ÀUSTRIA, 31B",la Vila Olímpica del Poblenou,53.7,59.3,0.457962524877023,75.14,-15.84,Infravalorada por score,0.50651675,83.43,-0.048554,Sobrepredicha por modelo
+268,"C/ FERNANDO PESSOA, 72",Sant Andreu,29.53,8.29,0.1830077628027847,23.76,-15.47,Infravalorada por score,0.26938626,44.38,-0.086378,Sobrepredicha por modelo
+441,"C/ WATT, 2",Sants,49.96,49.36,0.3839692554203595,64.64,-15.28,Infravalorada por score,0.38538337,65.19,-0.001414,Sobrepredicha por modelo
+526,C/ TARONGERS | AV. MIRAMAR (TELEFÈRIC),el Poble-sec,31.83,11.79,0.1926135995857337,26.89,-15.1,Infravalorada por score,0.16222939,13.08,0.030384,Infrapredicha por modelo
+500,"C/ ARGENTERA, 23",Vallcarca i els Penitents,38.5,23.2,0.2407849519822341,38.12,-14.92,Infravalorada por score,0.11897751,1.1,0.121807,Infrapredicha por modelo
+354,"RAMBLA DEL BRASIL, 5",Sants - Badal,48.63,47.15,0.3719494364655655,62.06,-14.91,Infravalorada por score,0.35993168,61.14,0.012018,Infrapredicha por modelo
+69,"CARRER DE LA MARINA,25-33",la Vila Olímpica del Poblenou,46.96,43.46,0.3502478078536027,58.2,-14.74,Infravalorada por score,0.43654528,72.01,-0.086297,Sobrepredicha por modelo
+608,"C/ PAMPLONA, 116 (xamfrà)",el Parc i la Llacuna del Poblenou,56.29,64.92,0.4908475619135518,79.56,-14.64,Infravalorada por score,0.48095778,80.11,0.00989,Infrapredicha por modelo
+146,"C/ PERE IV, 488",Provençals del Poblenou,56.77,65.93,0.5014535466538353,80.48,-14.55,Infravalorada por score,0.6031083,95.76,-0.101655,Sobrepredicha por modelo
+160,"AV.DEDUARD MARISTANY,1 /FORUM",el Besòs i el Maresme,56.26,64.64,0.4830776173285198,78.82,-14.18,Infravalorada por score,0.58455557,94.11,-0.101478,Sobrepredicha por modelo
+77,"AV. FRANCESC CAMBÓ, 10","Sant Pere, Santa Caterina i la Ribera",64.36,79.93,0.6298741409929735,93.92,-13.99,Infravalorada por score,0.47414213,78.64,0.155732,Infrapredicha por modelo
+4,"C/ RIBES, 13",el Fort Pienc,51.81,53.96,0.3995478660566617,67.59,-13.63,Infravalorada por score,0.4349004,71.82,-0.035353,Sobrepredicha por modelo
+456,"C/ MÚRCIA, 1",el Clot,52.17,55.34,0.4082431437066189,68.88,-13.54,Infravalorada por score,0.38176113,64.64,0.026482,Infrapredicha por modelo
+295,"C/ SANT ISCLE, 60",el Turó de la Peira,29.78,8.66,0.1783043746766144,22.1,-13.44,Infravalorada por score,0.1732645,16.94,0.00504,Infrapredicha por modelo
+50,"AV. PARAL.LEL, 54",el Raval,56.04,64.27,0.4686526479750779,77.35,-13.08,Infravalorada por score,0.492462,81.4,-0.023809,Sobrepredicha por modelo
+266,"C/ RIERA D'HORTA, 2",el Congrés i els Indians,34.22,15.29,0.205013056232421,28.36,-13.07,Infravalorada por score,0.2942678,48.99,-0.089255,Sobrepredicha por modelo
+393,"C/ LLACUNA, 86",el Poblenou,66.49,84.16,0.6793761258725513,97.05,-12.89,Infravalorada por score,0.64945877,98.9,0.029917,Infrapredicha por modelo
+462,"C/ PALAMÓS, 33",la Trinitat Nova,22.73,3.31,0.1594400695685782,16.02,-12.71,Infravalorada por score,0.25826657,41.07,-0.098827,Sobrepredicha por modelo
+388,"C/ RIERA ALTA, 6",el Raval,50.37,50.74,0.3788036117381489,63.35,-12.61,Infravalorada por score,0.5114222,84.35,-0.132619,Sobrepredicha por modelo
+154,"C/ PUJADES, 191",el Poblenou,66.7,84.71,0.675462623929698,96.69,-11.98,Infravalorada por score,0.5484203,90.24,0.127042,Infrapredicha por modelo
+239,"C/ INDÚSTRIA, 329",Navas,50.44,51.01,0.3765888226767595,62.98,-11.97,Infravalorada por score,0.3162922,53.22,0.060297,Infrapredicha por modelo
+373,"AV. PARAL.LEL, 132",Sant Antoni,59.29,70.07,0.5114973365994012,81.95,-11.88,Infravalorada por score,0.35070068,59.67,0.160797,Infrapredicha por modelo
+380,"C/ DURAN I BAS, 2",el Barri Gòtic,60.41,72.74,0.5293145643041585,84.53,-11.79,Infravalorada por score,0.44667697,74.22,0.082638,Infrapredicha por modelo
+153,"C/ PUJADES, 173/RBLA POBLE NOU",el Poblenou,61.22,74.77,0.546907400961826,86.56,-11.79,Infravalorada por score,0.6530971,99.26,-0.10619,Sobrepredicha por modelo
+281,"C/ D'ESCORNALBOU, 51",el Guinardó,44.88,37.38,0.2925877885555305,48.99,-11.61,Infravalorada por score,0.23666592,37.02,0.055922,Infrapredicha por modelo
+466,"C/ PABLO IGLESIAS, 21",la Prosperitat,27.0,7.0,0.1685416901514297,18.42,-11.42,Infravalorada por score,0.15843248,11.42,0.010109,Infrapredicha por modelo
+286,"C/ BOLÍVIA, 76",el Parc i la Llacuna del Poblenou,57.5,67.03,0.4818270303634593,78.45,-11.42,Infravalorada por score,0.5469065,89.87,-0.065079,Sobrepredicha por modelo
+434,"C/ ROGER, 24",Sants - Badal,47.82,45.3,0.3323961880626171,55.99,-10.69,Infravalorada por score,0.27104557,44.75,0.061351,Infrapredicha por modelo
+477,"C/ AMILCAR, 78",la Font d'en Fargues,25.55,5.71,0.1603112975352723,16.39,-10.68,Infravalorada por score,0.16027078,12.34,4.1e-05,Infrapredicha por modelo
+251,"C/ CARDENAL TEDESCHINI, 13",la Sagrera,42.65,32.41,0.2585872231262302,42.73,-10.32,Infravalorada por score,0.2675261,43.46,-0.008939,Sobrepredicha por modelo
+283,"C/ FULTON, 1",Horta,45.29,38.86,0.2924259488681157,48.62,-9.76,Infravalorada por score,0.15718901,10.68,0.135237,Infrapredicha por modelo
+301,"C/ MARIE CURIE, 8-14",la Guineueta,24.33,4.79,0.1521664747216797,14.18,-9.39,Infravalorada por score,0.16399457,14.0,-0.011828,Sobrepredicha por modelo
+280,"C/ SANT ANTONI Mª CLARET, 290-296",el Guinardó,47.42,44.38,0.315645583784746,53.41,-9.03,Infravalorada por score,0.26297057,41.99,0.052675,Infrapredicha por modelo
+242,"C/ RAMON ALBÓ, 1",el Congrés i els Indians,47.86,45.49,0.3213547490766155,54.51,-9.02,Infravalorada por score,0.23604923,36.83,0.085306,Infrapredicha por modelo
+311,"C/ GALLEGO, 2",la Maternitat i Sant Ramon,38.96,24.49,0.2245440872344425,33.33,-8.84,Infravalorada por score,0.19912806,26.52,0.025416,Infrapredicha por modelo
+489,"C/ JORGE MANRIQUE, 15",la Vall d'Hebron,18.9,1.47,0.134064017159055,10.13,-8.66,Infravalorada por score,0.074792154,0.0,0.059272,Infrapredicha por modelo
+610,"C/ ÀVILA, 102",el Parc i la Llacuna del Poblenou,54.75,61.33,0.4105321202095395,69.43,-8.1,Infravalorada por score,0.5648637,92.08,-0.154332,Sobrepredicha por modelo
+248,"C/ PALÈNCIA, 31",la Sagrera,46.89,43.09,0.3004958567395229,50.83,-7.74,Infravalorada por score,0.3752927,63.35,-0.074797,Sobrepredicha por modelo
+461,"AV. RIO DE JANEIRO, 118",la Prosperitat,35.61,17.31,0.1858085250338295,24.86,-7.55,Infravalorada por score,0.2834419,47.15,-0.097633,Sobrepredicha por modelo
+487,"C/ LISBOA, 128",el Carmel,20.18,1.84,0.1270562797667497,9.21,-7.37,Infravalorada por score,0.16779113,15.47,-0.040735,Sobrepredicha por modelo
+501,"C/ ELISA, 1",el Putxet i el Farró,34.95,16.39,0.1804913783387805,23.02,-6.63,Infravalorada por score,0.13922307,4.6,0.041268,Infrapredicha por modelo
+46,"C/ VILLENA, 1",la Vila Olímpica del Poblenou,41.73,30.29,0.2395022140784853,36.83,-6.54,Infravalorada por score,0.3910312,66.3,-0.151529,Sobrepredicha por modelo
+445,"C/ VILAMARÍ, 2",Sant Antoni,56.79,66.21,0.4343353241679814,72.56,-6.35,Infravalorada por score,0.3354501,56.54,0.098885,Infrapredicha por modelo
+324,"C/ REINA VICTORIA, 31",Sant Gervasi - Galvany,35.07,16.76,0.1799276937835924,22.65,-5.89,Infravalorada por score,0.15173475,8.84,0.028193,Infrapredicha por modelo
+267,"PG. TORRAS I BAGES, 129",Sant Andreu,35.8,18.14,0.1807439433329565,23.2,-5.06,Infravalorada por score,0.33989015,57.09,-0.159146,Sobrepredicha por modelo
+378,"PL. JOAQUIM XIRAU I PALAU, 1",el Barri Gòtic,66.33,83.79,0.5610003379520108,88.77,-4.98,Infravalorada por score,0.58936304,94.29,-0.028363,Sobrepredicha por modelo
+313,"C/ FELIU DE CASANOVA, 1",Sants - Badal,51.32,52.3,0.336920587754848,56.91,-4.61,Infravalorada por score,0.37344563,62.8,-0.036525,Sobrepredicha por modelo
+502,"AV. VALLCARCA, 11",Vallcarca i els Penitents,38.7,23.39,0.1982897258932651,27.62,-4.23,Infravalorada por score,0.21426195,30.02,-0.015972,Sobrepredicha por modelo
+150,"C/ ESPRONCEDA, 124",el Poblenou,68.7,88.4,0.6060473396958819,92.27,-3.87,Infravalorada por score,0.5970377,95.21,0.00901,Infrapredicha por modelo
+218,"C/ CONSELL DE CENT, 566",la Sagrada Família,50.92,51.93,0.3305780350159715,55.8,-3.87,Infravalorada por score,0.27363786,45.12,0.05694,Infrapredicha por modelo
+235,"AV. PARAL.LEL, 98",Sant Antoni,60.02,71.64,0.4585410310699142,75.32,-3.68,Infravalorada por score,0.457372,75.87,0.001169,Infrapredicha por modelo
+401,PLA DE PALAU,"Sant Pere, Santa Caterina i la Ribera",68.82,88.77,0.6063928611642833,92.45,-3.68,Infravalorada por score,0.63655233,98.16,-0.030159,Sobrepredicha por modelo
+294,SEU DEL DISTRICTE (NOU BARRIS),la Guineueta,30.08,9.39,0.1491991512693405,12.89,-3.5,Infravalorada por score,0.15635058,10.5,-0.007151,Sobrepredicha por modelo
+53,PL. CARLES PI I SUNYER,el Barri Gòtic,61.02,74.59,0.4723151304646127,77.9,-3.31,Infravalorada por score,0.50392735,83.06,-0.031612,Sobrepredicha por modelo
+270,"CRTA. DE RIBES, 77 (TRINITAT VELLA)",la Trinitat Vella,28.55,7.92,0.1433244871730676,11.23,-3.31,Infravalorada por score,0.26330653,42.17,-0.119982,Sobrepredicha por modelo
+36,"AV. DE LA CATEDRAL, 6",el Barri Gòtic,64.9,81.03,0.5259591622306921,83.98,-2.95,Infravalorada por score,0.49388403,81.58,0.032075,Infrapredicha por modelo
+227,"C/ DEL TORRENT DE LES FLORS, 102",la Vila de Gràcia,42.87,32.97,0.2351901969628627,35.91,-2.94,Infravalorada por score,0.23239982,35.73,0.00279,Infrapredicha por modelo
+463,"C/ PEDROSA, 24",la Trinitat Nova,23.48,3.68,0.1121649679124197,6.08,-2.4,Infravalorada por score,0.16928437,15.84,-0.057119,Sobrepredicha por modelo
+474,"VIA FAVÈNCIA, 47",Canyelles,20.96,2.03,0.1041877981892633,4.42,-2.39,Infravalorada por score,0.260611,41.62,-0.156423,Sobrepredicha por modelo
+213,"C/ SANTA FE DE NOU MÈXIC, 2",les Tres Torres,39.29,25.41,0.1926797278465448,27.26,-1.85,Infravalorada por score,0.18692386,23.02,0.005756,Infrapredicha por modelo
+282,"PG. FONT D´EN- FARGAS, 1",la Font d'en Fargues,30.97,11.05,0.1479807112718505,12.71,-1.66,Infravalorada por score,0.17875603,19.34,-0.030775,Sobrepredicha por modelo
+315,"C/ DEL GUINARDÓ, 32-38",el Camp de l'Arpa del Clot,52.16,55.06,0.3324659944790546,56.17,-1.11,Infravalorada por score,0.25682178,40.7,0.075644,Infrapredicha por modelo
+273,"AV. MERIDIANA, 404",Sant Andreu,48.77,47.7,0.292386211782132,48.43,-0.73,Infravalorada por score,0.2570875,40.88,0.035299,Infrapredicha por modelo
+460,"C/ MIREIA, 28",la Trinitat Vella,37.21,21.36,0.1782786731282166,21.92,-0.56,Infravalorada por score,0.25258502,39.78,-0.074306,Sobrepredicha por modelo
+82,"C/ CALÀBRIA, 112",la Nova Esquerra de l'Eixample,60.22,71.82,0.4292361894024802,71.82,0.0,Sobrevalorada por score,0.28182906,46.41,0.147407,Infrapredicha por modelo
+484,"C/ EDUARD TODA, 33 | C/ DOCTOR LETAMENDI",Horta,17.02,0.55,0.0754328442604618,0.55,0.0,Sobrevalorada por score,0.17698954,18.97,-0.101557,Sobrepredicha por modelo
+149,"C/ PUJADES, 57B",el Parc i la Llacuna del Poblenou,63.86,78.27,0.4750079712698652,78.08,0.19,Sobrevalorada por score,0.5812706,93.74,-0.106263,Sobrepredicha por modelo
+293,"C/ GRANOLLERS, 1",Horta,41.21,29.28,0.2048385565052231,28.18,1.1,Sobrevalorada por score,0.23219565,35.54,-0.027357,Sobrepredicha por modelo
+421,"C/ VALLESPIR, 13",Sants,53.2,58.29,0.3372291737120956,57.09,1.2,Sobrevalorada por score,0.3499473,58.93,-0.012718,Sobrepredicha por modelo
+498,"C/ ESTEVE TERRADAS, 42",Vallcarca i els Penitents,43.54,35.17,0.2268555537786307,33.89,1.28,Sobrevalorada por score,0.1131595,0.74,0.113696,Infrapredicha por modelo
+43,"C/ CLOT, 1",el Clot,63.99,78.82,0.4695953708926071,77.53,1.29,Sobrevalorada por score,0.3923593,66.67,0.077236,Infrapredicha por modelo
+85,"AV. PARAL·LEL, 146 BIS",Sant Antoni,64.82,80.85,0.4903209775491113,79.37,1.48,Sobrevalorada por score,0.37873733,63.9,0.111584,Infrapredicha por modelo
+100,"C/ TARRAGONA,  159-173",Hostafrancs,45.7,40.15,0.2429705215419501,38.67,1.48,Sobrevalorada por score,0.32734278,54.7,-0.084372,Sobrepredicha por modelo
+121,"C/ CASTILLEJOS, 258",la Sagrada Família,52.0,54.7,0.3097624141425515,53.22,1.48,Sobrevalorada por score,0.24555424,38.12,0.064208,Infrapredicha por modelo
+488,"AV. CAN MARCET, 36",la Vall d'Hebron,32.62,13.44,0.1448737867321539,11.79,1.65,Sobrevalorada por score,0.09906486,0.18,0.045809,Infrapredicha por modelo
+386,AV. PARAL.LEL 164,Sant Antoni,54.49,60.59,0.3587212212212212,58.93,1.66,Sobrevalorada por score,0.39523357,67.22,-0.036512,Sobrepredicha por modelo
+115,"AV. MARQUÉS DE L'ARGENTERA,  3","Sant Pere, Santa Caterina i la Ribera",74.96,96.5,0.6300064495324089,94.11,2.39,Sobrevalorada por score,0.5613849,91.9,0.068622,Infrapredicha por modelo
+356,"C/ CAMÈLIES, 73",el Baix Guinardó,42.89,33.24,0.2133417101617372,30.76,2.48,Sobrevalorada por score,0.18381134,21.73,0.02953,Infrapredicha por modelo
+210,"C/ VILARDELL, 18",Hostafrancs,50.35,50.46,0.2886609558160505,47.7,2.76,Sobrevalorada por score,0.4425484,72.56,-0.153887,Sobrepredicha por modelo
+468,"C/ NOU BARRIS, 23",les Roquetes,25.8,6.45,0.1018727295502943,3.68,2.77,Sobrevalorada por score,0.14598341,7.0,-0.044111,Sobrepredicha por modelo
+418,Time Out Market PG. LLUíS COMPANYS,"Sant Pere, Santa Caterina i la Ribera",58.25,67.96,0.385401720104702,65.01,2.95,Sobrevalorada por score,0.3565747,60.59,0.028827,Infrapredicha por modelo
+263,"PG. TORRAS I BAGES, 29",Sant Andreu,47.93,45.86,0.2587476045541652,42.91,2.95,Sobrevalorada por score,0.38388357,65.01,-0.125136,Sobrepredicha por modelo
+81,"C/ VILAMARÍ,  61",la Nova Esquerra de l'Eixample,53.11,58.01,0.3221105662298684,54.88,3.13,Sobrevalorada por score,0.3124323,52.49,0.009678,Infrapredicha por modelo
+26,"C/ DOS DE MAIG, 230-232",el Camp de l'Arpa del Clot,61.51,75.51,0.4332369109783738,72.38,3.13,Sobrevalorada por score,0.30932972,51.75,0.123907,Infrapredicha por modelo
+113,"RONDA DE SANT PAU , 51",Sant Antoni,60.87,74.4,0.4250894276629571,70.9,3.5,Sobrevalorada por score,0.4770814,79.19,-0.051992,Sobrepredicha por modelo
+240,"C/ JOSEP ESTIVILL, 32",Navas,55.16,61.88,0.3524590505998956,58.38,3.5,Sobrevalorada por score,0.36824518,61.69,-0.015786,Sobrepredicha por modelo
+423,"C/ HONDURAS, 32-34",la Sagrera,52.19,55.62,0.3041835830283623,51.93,3.69,Sobrevalorada por score,0.34466735,58.2,-0.040484,Sobrepredicha por modelo
+14,"AV. MARQUÉS DE  L'ARGENTERA, 15","Sant Pere, Santa Caterina i la Ribera",72.3,93.09,0.5712883609816402,89.32,3.77,Sobrevalorada por score,0.5710982,92.63,0.00019,Infrapredicha por modelo
+332,"C/ DOCTOR ROUX, 86",les Tres Torres,39.35,25.6,0.1772624216717282,21.55,4.05,Sobrevalorada por score,0.15082923,7.92,0.026433,Infrapredicha por modelo
+538,"AV. ESTADI, 38",el Poble-sec,33.67,14.36,0.1275802860485301,9.94,4.42,Sobrevalorada por score,0.2697802,44.57,-0.1422,Sobrepredicha por modelo
+70,"C/ COMTE URGELL, 23",Sant Antoni,63.9,78.45,0.4473576155219287,73.85,4.6,Sobrevalorada por score,0.39651418,67.59,0.050843,Infrapredicha por modelo
+45,"C/ SARDENYA, 66",la Vila Olímpica del Poblenou,59.58,70.53,0.3894004501739308,65.75,4.78,Sobrevalorada por score,0.44101226,72.38,-0.051612,Sobrepredicha por modelo
+97,"C/ TARRAGONA, 141",Hostafrancs,53.09,57.83,0.3092687368692437,53.04,4.79,Sobrevalorada por score,0.3132638,52.67,-0.003995,Sobrepredicha por modelo
+485,"PG. VALLDAURA, 26",Horta,28.88,8.1,0.1012849584278155,3.31,4.79,Sobrevalorada por score,0.115337096,0.92,-0.014052,Sobrepredicha por modelo
+472,"VIA FAVÈNCIA, 186",la Guineueta,30.41,9.76,0.1066202712348322,4.79,4.97,Sobrevalorada por score,0.21684535,30.76,-0.110225,Sobrepredicha por modelo
+28,"C/ SARDENYA, 362",la Sagrada Família,48.19,46.78,0.2520607328948492,41.62,5.16,Sobrevalorada por score,0.266135,43.09,-0.014074,Sobrepredicha por modelo
+9,"AV. MARQUÉS DE L'ARGENTERA,13","Sant Pere, Santa Caterina i la Ribera",72.53,93.74,0.5601498525521763,88.58,5.16,Sobrevalorada por score,0.5578007,91.53,0.002349,Infrapredicha por modelo
+277,"TRAVESSERA DE GRÀCIA, 328",el Baix Guinardó,44.95,37.75,0.2209522854684144,32.41,5.34,Sobrevalorada por score,0.21411918,29.65,0.006833,Infrapredicha por modelo
+572,"AV. CAN MARCET, 3",la Vall d'Hebron,30.07,9.21,0.1021589991928975,3.87,5.34,Sobrevalorada por score,0.17670298,18.42,-0.074544,Sobrepredicha por modelo
+508,"C/ SARDENYA, 465",el Camp d'en Grassot i Gràcia Nova,46.9,43.28,0.2406487751860212,37.75,5.53,Sobrevalorada por score,0.24484535,37.94,-0.004197,Sobrepredicha por modelo
+86,"C/ VILADOMAT,  2",Sant Antoni,67.51,86.74,0.5036472999877932,80.85,5.89,Sobrevalorada por score,0.39863405,67.96,0.105013,Infrapredicha por modelo
+475,"C/ CAMPO FLORIDO, 66",el Congrés i els Indians,50.24,49.91,0.263957856812714,44.01,5.9,Sobrevalorada por score,0.29987893,50.09,-0.035921,Sobrepredicha por modelo
+215,"C/ GANDUXER, 29",Sant Gervasi - Galvany,33.52,14.0,0.1216424358540891,7.92,6.08,Sobrevalorada por score,0.19454852,25.23,-0.072906,Sobrepredicha por modelo
+573," AV. MARTÍ CODOLAR, 2 | COLL I ALENTORN",la Vall d'Hebron,25.78,6.08,0.0527423981640849,0.0,6.08,Sobrevalorada por score,0.15730196,10.87,-0.10456,Sobrepredicha por modelo
+471,"PG. VALLDAURA, 171",la Guineueta,34.86,16.21,0.1274715115840314,9.76,6.45,Sobrevalorada por score,0.17937088,19.52,-0.051899,Sobrepredicha por modelo
+291,"C/ CUBELLES, 2",Vilapicina i la Torre Llobeta,39.09,24.68,0.1673089756423089,18.05,6.63,Sobrevalorada por score,0.22148569,31.86,-0.054177,Sobrepredicha por modelo
+467,PL. JESÚS CARRASCO,Verdun,31.85,11.97,0.1062899908592321,4.6,7.37,Sobrevalorada por score,0.12958647,2.76,-0.023296,Sobrepredicha por modelo
+262,"C/ ENTENÇA, 70",la Nova Esquerra de l'Eixample,70.49,90.61,0.5180436579501052,83.06,7.55,Sobrevalorada por score,0.32690072,54.51,0.191143,Infrapredicha por modelo
+329,"C/ DE LES ESCOLES PIES, 99",les Tres Torres,40.11,27.07,0.1723109449918828,19.34,7.73,Sobrevalorada por score,0.13428888,3.31,0.038022,Infrapredicha por modelo
+51,PL. VICENÇ MARTORELL,el Raval,65.53,82.87,0.4524281409364858,74.4,8.47,Sobrevalorada por score,0.44358408,73.3,0.008844,Infrapredicha por modelo
+231,"C/ PAU ALSINA, 54",el Camp d'en Grassot i Gràcia Nova,51.78,53.78,0.2720864308778253,45.3,8.48,Sobrevalorada por score,0.25255746,39.59,0.019529,Infrapredicha por modelo
+577,"PTGE. CALAFELL, 3",el Carmel,34.52,15.65,0.1185187723669974,7.0,8.65,Sobrevalorada por score,0.15252315,9.02,-0.034004,Sobrepredicha por modelo
+504,"C/ MASSENS, 76",la Vila de Gràcia,43.21,34.35,0.1876076216224915,25.23,9.12,Sobrevalorada por score,0.22445488,33.33,-0.036847,Sobrepredicha por modelo
+325,"C/ ALT DE GIRONELLA, 13",les Tres Torres,35.8,18.14,0.1264166494951576,8.84,9.3,Sobrevalorada por score,0.15471445,9.58,-0.028298,Sobrepredicha por modelo
+470,"C/ GÒNGORA, 23",Verdun,31.46,11.6,0.0833476599808978,1.66,9.94,Sobrevalorada por score,0.20692399,27.99,-0.123576,Sobrepredicha por modelo
+186,"C/CONSELL DE CENT, 6",Hostafrancs,60.39,72.47,0.3720928214384892,62.43,10.04,Sobrevalorada por score,0.342162,57.83,0.029931,Infrapredicha por modelo
+499,"AV. VALLCARCA, 196",Vallcarca i els Penitents,34.74,15.84,0.1104551816339746,5.71,10.13,Sobrevalorada por score,0.18058434,20.07,-0.070129,Sobrepredicha por modelo
+514,"C/ ARAGÓ, 614",el Clot,60.25,72.19,0.3712317940611945,61.69,10.5,Sobrevalorada por score,0.39022034,66.11,-0.018989,Sobrepredicha por modelo
+405,"C/ COMTE BORRELL, 198",la Nova Esquerra de l'Eixample,51.41,52.67,0.2534378292939936,41.99,10.68,Sobrevalorada por score,0.2179229,31.31,0.035515,Infrapredicha por modelo
+258,"C/ FERNANDO PESSOA, 41",Sant Andreu,40.32,27.62,0.162221721383317,16.76,10.86,Sobrevalorada por score,0.2898901,48.43,-0.127668,Sobrepredicha por modelo
+30,"C/ CASTILLEJOS, 180",la Sagrada Família,52.17,55.34,0.2641778623231482,44.2,11.14,Sobrevalorada por score,0.37708575,63.72,-0.112908,Sobrepredicha por modelo
+403,"C/ VALLESPIR, 49",Sants,55.61,63.35,0.3047600995871028,52.12,11.23,Sobrevalorada por score,0.26509267,42.73,0.039667,Infrapredicha por modelo
+44,"AV. MERIDIANA, 71",el Fort Pienc,54.78,61.51,0.297699995060834,50.09,11.42,Sobrevalorada por score,0.4590926,76.43,-0.161393,Sobrepredicha por modelo
+427,"C/ DE SANT PAU, 119/ RONDA SANT PAU",el Raval,68.72,88.58,0.4678757016075162,77.16,11.42,Sobrevalorada por score,0.44786516,74.4,0.020011,Infrapredicha por modelo
+58,"C/ VALLDONZELLA, 2",el Raval,60.86,74.22,0.3746827547640555,62.8,11.42,Sobrevalorada por score,0.44524944,74.03,-0.070567,Sobrepredicha por modelo
+52,"PL. SANT MIQUEL, 4",el Barri Gòtic,62.18,76.52,0.382819547812359,63.9,12.62,Sobrevalorada por score,0.4793442,79.74,-0.096525,Sobrepredicha por modelo
+447,"C/ ALMOGÀVERS, 63",el Fort Pienc,56.47,65.56,0.3076349386929591,52.85,12.71,Sobrevalorada por score,0.4108236,69.06,-0.103189,Sobrepredicha por modelo
+164,"C/ INDEPENDÈNCIA, 379",el Camp de l'Arpa del Clot,60.65,73.66,0.3687736588456984,60.77,12.89,Sobrevalorada por score,0.26868457,44.01,0.100089,Infrapredicha por modelo
+122,"C/ NÀPOLS, 344",el Camp d'en Grassot i Gràcia Nova,54.31,60.41,0.2808269995452665,46.96,13.45,Sobrevalorada por score,0.17665754,18.23,0.104169,Infrapredicha por modelo
+188,PG. SANT ANTONI /PL. SANTS,Sants,61.49,75.32,0.3696608485880516,61.14,14.18,Sobrevalorada por score,0.31952363,53.59,0.050137,Infrapredicha por modelo
+493,"PG. VALL D'HEBRÓN, 80",Vallcarca i els Penitents,37.02,20.81,0.1122232246908011,6.26,14.55,Sobrevalorada por score,0.16112375,12.71,-0.048901,Sobrepredicha por modelo
+581,"AV. JORDÀ, 18",Sant Genís dels Agudells,42.96,33.7,0.1722217748429698,19.15,14.55,Sobrevalorada por score,0.12655295,2.21,0.045669,Infrapredicha por modelo
+34,"C/ SANT PERE MÉS ALT, 4","Sant Pere, Santa Caterina i la Ribera",71.52,91.53,0.4647962054827558,76.43,15.1,Sobrevalorada por score,0.44370595,73.48,0.02109,Infrapredicha por modelo
+568,"C/ ROMÁN MACAYA, 8",Sant Gervasi - la Bonanova,35.45,17.13,0.0903923673899939,2.03,15.1,Sobrevalorada por score,0.14168175,5.16,-0.051289,Sobrepredicha por modelo
+363,"C/ BRUC, 20",la Dreta de l'Eixample,71.32,91.16,0.4608711385365482,75.87,15.29,Sobrevalorada por score,0.2526197,39.96,0.208251,Infrapredicha por modelo
+65,"PL. CATALUNYA, 10-11 (PG. DE GRÀCIA)",la Dreta de l'Eixample,72.88,94.48,0.4884330759330759,79.01,15.47,Sobrevalorada por score,0.35131904,60.04,0.137114,Infrapredicha por modelo
+42,"C/ CIUTAT DE GRANADA, 168| AV.DIAGONAL   ",el Parc i la Llacuna del Poblenou,70.32,90.24,0.4485851094470046,74.22,16.02,Sobrevalorada por score,0.4674621,77.9,-0.018877,Sobrepredicha por modelo
+512,"C/ D'ALACANT, 12",les Tres Torres,35.97,19.15,0.1011188007537539,3.13,16.02,Sobrevalorada por score,0.1632633,13.44,-0.062144,Sobrepredicha por modelo
+197,"C/ GELABERT, 1",les Corts,41.31,29.65,0.1498432261593122,13.26,16.39,Sobrevalorada por score,0.21336426,29.28,-0.063521,Sobrepredicha por modelo
+558,"RBLA MUNTANYA, 49",el Guinardó,40.56,28.18,0.1436164833775755,11.42,16.76,Sobrevalorada por score,0.29622117,49.54,-0.152605,Sobrepredicha por modelo
+48,"AV. MERIDIANA, 40",el Parc i la Llacuna del Poblenou,62.61,77.16,0.3657810930845779,60.22,16.94,Sobrevalorada por score,0.46155635,76.98,-0.095775,Sobrepredicha por modelo
+473,"PG. FABRA I PUIG, 449",la Guineueta,39.88,26.61,0.1273615023474178,9.58,17.03,Sobrevalorada por score,0.12816884,2.39,-0.000807,Sobrepredicha por modelo
+276,PLAÇA ALFONS X EL SAVI / RONDA DEL GUIN,el Baix Guinardó,46.36,41.44,0.1836343115124153,24.13,17.31,Sobrevalorada por score,0.2163466,30.39,-0.032712,Sobrepredicha por modelo
+275,"AV. RIO DE JANEIRO, 3",Porta,41.24,29.47,0.1455210211902615,12.15,17.32,Sobrevalorada por score,0.28782967,47.88,-0.142309,Sobrepredicha por modelo
+491,"C/ PARE MARIANA, 24",la Vall d'Hebron,35.64,17.5,0.0588033931135824,0.18,17.32,Sobrevalorada por score,0.108838595,0.55,-0.050035,Sobrepredicha por modelo
+83,"C/ CALABRIA, 158",la Nova Esquerra de l'Eixample,63.3,77.9,0.3666056681681682,60.41,17.49,Sobrevalorada por score,0.2688049,44.2,0.097801,Infrapredicha por modelo
+371,"C/ DELS ENAMORATS, 49",la Sagrada Família,62.14,76.24,0.3531151888125883,58.56,17.68,Sobrevalorada por score,0.33072242,55.43,0.022393,Infrapredicha por modelo
+103,"C/ ARAGÓ, 629",el Clot,60.45,72.93,0.3266576454668471,55.25,17.68,Sobrevalorada por score,0.3854241,65.38,-0.058766,Sobrepredicha por modelo
+435,"AV. DOCTOR MARAÑON, 25 | PAU GARGALLO",la Maternitat i Sant Ramon,53.27,58.56,0.248808316021708,40.52,18.04,Sobrevalorada por score,0.1836814,21.55,0.065127,Infrapredicha por modelo
+302,"C/ CAVALLERS, 41",Pedralbes,50.28,50.09,0.2177622430187544,31.68,18.41,Sobrevalorada por score,0.22051227,31.49,-0.00275,Sobrepredicha por modelo
+336,"AV. JOSEP VICENÇ FOIX, 52",Sarrià,48.78,47.88,0.2098454499037743,29.47,18.41,Sobrevalorada por score,0.16556667,14.36,0.044279,Infrapredicha por modelo
+3," C/ NÀPOLS, 82",el Fort Pienc,66.72,84.99,0.3911426639621366,66.11,18.88,Sobrevalorada por score,0.3867052,65.75,0.004437,Infrapredicha por modelo
+303,"C/ CAVALLERS, 67",Pedralbes,46.57,41.9,0.1803807639488919,22.84,19.06,Sobrevalorada por score,0.14782013,7.73,0.032561,Infrapredicha por modelo
+193,"C/ FÍGOLS, 1",les Corts,47.91,45.67,0.1913364486371589,26.15,19.52,Sobrevalorada por score,0.18340564,21.36,0.007931,Infrapredicha por modelo
+563,"C/ ENTENÇA, 301",les Corts,52.76,57.46,0.2406576769728428,37.94,19.52,Sobrevalorada por score,0.1767905,18.6,0.063867,Infrapredicha por modelo
+290,"PL. DELS JARDINS D'ALFÀBIA, 1",Porta,41.82,30.57,0.1425316438927783,11.05,19.52,Sobrevalorada por score,0.19156331,23.94,-0.049032,Sobrepredicha por modelo
+94,"GRAN VIA DE LES CORTS CATALANES,375",la Nova Esquerra de l'Eixample,65.14,81.77,0.3713237328463922,61.88,19.89,Sobrevalorada por score,0.32211316,53.78,0.049211,Infrapredicha por modelo
+569,"C/ QUATRE CAMINS, 46",Sant Gervasi - la Bonanova,37.86,22.56,0.0942216715476458,2.58,19.98,Sobrevalorada por score,0.16736832,15.29,-0.073147,Sobrepredicha por modelo
+503,"C/ MAIGNON, 31-41",la Salut,39.16,25.05,0.1081736909323116,4.97,20.08,Sobrevalorada por score,0.13443114,3.5,-0.026257,Sobrepredicha por modelo
+603,"C/ CÒRSEGA, 612 (xamfrà)",la Sagrada Família,54.13,60.04,0.2454047914085089,39.59,20.45,Sobrevalorada por score,0.22317204,32.6,0.022233,Infrapredicha por modelo
+318,"C/ CASTILLEJOS, 388",el Baix Guinardó,43.83,35.36,0.1534616469261139,14.73,20.63,Sobrevalorada por score,0.2383909,37.2,-0.084929,Sobrepredicha por modelo
+328,"C/ ARTESA DE SEGRE, 2",Sant Gervasi - la Bonanova,39.53,25.97,0.1087910329611102,5.34,20.63,Sobrevalorada por score,0.13064945,2.95,-0.021858,Sobrepredicha por modelo
+426,"C/ DE RIBES, 59 B",el Fort Pienc,56.85,66.48,0.272556589893528,45.67,20.81,Sobrevalorada por score,0.38612857,65.56,-0.113572,Sobrepredicha por modelo
+384,"C/ VILAMARÍ, 85",la Nova Esquerra de l'Eixample,52.52,56.54,0.2324475051389021,35.36,21.18,Sobrevalorada por score,0.27347067,44.94,-0.041023,Sobrepredicha por modelo
+64,"PL. CATALUNYA, 10-11 (LA RAMBLA)",la Dreta de l'Eixample,72.21,92.82,0.4275617038968893,71.64,21.18,Sobrevalorada por score,0.36702603,61.51,0.060536,Infrapredicha por modelo
+96,"GRAN VIA DE LES CORTS CATALANES,  368",el Poble-sec,59.29,70.07,0.2924414210128495,48.8,21.27,Sobrevalorada por score,0.35606456,60.41,-0.063623,Sobrepredicha por modelo
+490,"PG. VALL D'HEBRÓN, 168",la Vall d'Hebron,46.77,42.54,0.1746394312154384,20.26,22.28,Sobrevalorada por score,0.17425737,17.13,0.000382,Infrapredicha por modelo
+194,"C/ JOAN GÜELL, 98",les Corts,54.72,61.14,0.2441893264131784,38.86,22.28,Sobrevalorada por score,0.25254023,39.41,-0.008351,Sobrepredicha por modelo
+417,"C/ VILLAR, 2",el Guinardó,57.56,67.22,0.2684016674280493,44.75,22.47,Sobrevalorada por score,0.29220212,48.8,-0.0238,Sobrepredicha por modelo
+335,"C/ SANTA AMÈLIA, 2",Sarrià,43.9,35.73,0.1479504758598744,12.52,23.21,Sobrevalorada por score,0.17646044,18.05,-0.02851,Sobrepredicha por modelo
+71,"C/ FLORIDABLANCA, 145",Sant Antoni,63.83,78.08,0.3219016853229159,54.7,23.38,Sobrevalorada por score,0.3798949,64.09,-0.057993,Sobrepredicha por modelo
+307,C/ PINTOR RIBALTA | AV. XILE,la Maternitat i Sant Ramon,46.32,41.25,0.1665820929183581,17.86,23.39,Sobrevalorada por score,0.18508264,22.1,-0.018501,Sobrepredicha por modelo
+326,"C/ BALMES, 409",Sant Gervasi - la Bonanova,38.87,23.94,0.0714637509850275,0.37,23.57,Sobrevalorada por score,0.1511675,8.29,-0.079704,Sobrepredicha por modelo
+359,"C/ MÉNDEZ NÚÑEZ, 16","Sant Pere, Santa Caterina i la Ribera",76.6,97.97,0.4458564206619668,73.66,24.31,Sobrevalorada por score,0.37461352,63.17,0.071243,Infrapredicha por modelo
+228,"PL. DEL NORD, 5",la Vila de Gràcia,43.03,33.89,0.1245433642771187,8.29,25.6,Sobrevalorada por score,0.20002088,26.89,-0.075478,Sobrepredicha por modelo
+104,"C/ VALÈNCIA,  621",el Clot,68.53,88.21,0.372044298114337,62.25,25.96,Sobrevalorada por score,0.35049835,59.12,0.021546,Infrapredicha por modelo
+140,"C/ VILADOMAT,  122",la Nova Esquerra de l'Eixample,72.3,93.09,0.3948828904896347,67.03,26.06,Sobrevalorada por score,0.28184402,46.59,0.113039,Infrapredicha por modelo
+323,"C/ VALLMAJOR, 13",Sant Gervasi - Galvany,43.2,34.07,0.1192919996465048,7.37,26.7,Sobrevalorada por score,0.16396263,13.81,-0.044671,Sobrepredicha por modelo
+99,"C/ VIRIAT,  53",Sants,60.23,72.01,0.2708148768583992,45.12,26.89,Sobrevalorada por score,0.22699836,34.25,0.043817,Infrapredicha por modelo
+111,C/ ARAGÓ 147,la Nova Esquerra de l'Eixample,65.02,81.22,0.3179972936400541,53.78,27.44,Sobrevalorada por score,0.3035266,51.01,0.014471,Infrapredicha por modelo
+387,"C/ NÀPOLS, 125",el Fort Pienc,56.34,65.29,0.2403762245242653,37.57,27.72,Sobrevalorada por score,0.19945745,26.7,0.040919,Infrapredicha por modelo
+321,"C/ SANT HERMENEGILD, 30",el Putxet i el Farró,49.28,48.62,0.1754454138253777,20.81,27.81,Sobrevalorada por score,0.14149065,4.97,0.033955,Infrapredicha por modelo
+429,"C/ GRAN CAPITÀ, 9",Pedralbes,52.25,55.8,0.2004700627287826,27.81,27.99,Sobrevalorada por score,0.1786905,19.15,0.02178,Infrapredicha por modelo
+6,"PG. LLUIS COMPANYS, 18 (ARC TRIOMF)","Sant Pere, Santa Caterina i la Ribera",55.69,63.54,0.232319393928427,35.17,28.37,Sobrevalorada por score,0.32353106,54.14,-0.091212,Sobrepredicha por modelo
+63,"PL. CATALUNYA, 7",la Dreta de l'Eixample,73.66,95.76,0.3972489719096054,67.22,28.54,Sobrevalorada por score,0.3719057,62.43,0.025343,Infrapredicha por modelo
+62,"PL. CATALUNYA, 5",la Dreta de l'Eixample,75.18,96.87,0.4023924886982729,68.32,28.55,Sobrevalorada por score,0.36655822,61.33,0.035834,Infrapredicha por modelo
+582,"C/ JUDEA, 1",Sant Genís dels Agudells,47.2,43.83,0.1550756661675558,14.92,28.91,Sobrevalorada por score,0.12851493,2.58,0.026561,Infrapredicha por modelo
+602,"C/ ROSSELLÓ, 497 (xamfrà)",la Sagrada Família,56.23,64.46,0.2346762346027799,35.54,28.92,Sobrevalorada por score,0.22842778,34.62,0.006248,Infrapredicha por modelo
+495,"C/ DIPUTACIÓ, 22",la Nova Esquerra de l'Eixample,66.57,84.35,0.3271422133522179,55.43,28.92,Sobrevalorada por score,0.3689497,62.06,-0.041807,Sobrepredicha por modelo
+261,"C/ VILLARROEL, 39",Sant Antoni,65.95,83.06,0.3181895093062605,53.96,29.1,Sobrevalorada por score,0.33876935,56.91,-0.02058,Sobrepredicha por modelo
+225,"C/ VILADOMAT, 200",la Nova Esquerra de l'Eixample,60.51,73.11,0.2620017804909068,43.83,29.28,Sobrevalorada por score,0.22542785,33.89,0.036574,Infrapredicha por modelo
+199,"C/ MEJÍA LEQUERICA, 2",la Maternitat i Sant Ramon,51.48,52.85,0.1811323601523895,23.39,29.46,Sobrevalorada por score,0.19460124,25.41,-0.013469,Sobrepredicha por modelo
+278,"TRAVESSERA DE GRÀCIA, 368",el Baix Guinardó,59.91,71.45,0.2534333024064461,41.8,29.65,Sobrevalorada por score,0.24697123,38.49,0.006462,Infrapredicha por modelo
+202,"C/ DE LES CORTS, 20",les Corts,46.7,42.36,0.1468212241082903,12.34,30.02,Sobrevalorada por score,0.14209525,5.34,0.004726,Infrapredicha por modelo
+216,"C/ MADRAZO, 131",Sant Gervasi - Galvany,53.29,58.93,0.2078133613992883,28.91,30.02,Sobrevalorada por score,0.15613224,10.31,0.051681,Infrapredicha por modelo
+304,"PG. MANUEL GIRONA, 7",Sarrià,54.09,59.85,0.2107648970747562,29.65,30.2,Sobrevalorada por score,0.15524656,10.13,0.055518,Infrapredicha por modelo
+420,"GRAN VIA DE LES CORTS CATALANES,368",Hostafrancs,62.71,77.72,0.2844533508099751,47.51,30.21,Sobrevalorada por score,0.30518752,51.2,-0.020734,Sobrepredicha por modelo
+604,"C/ CÒRSEGA, 578",la Sagrada Família,56.29,64.92,0.2222995926647454,32.78,32.14,Sobrevalorada por score,0.21367761,29.47,0.008622,Infrapredicha por modelo
+91,"C/ COMTE D'URGELL, 43",Sant Antoni,73.93,95.95,0.3808644160525214,63.72,32.23,Sobrevalorada por score,0.3016384,50.64,0.079226,Infrapredicha por modelo
+98," C/ DOLORS BATLLE I SUNYER, 2",Sants,50.37,50.74,0.1676142824653172,18.23,32.51,Sobrevalorada por score,0.3346272,56.17,-0.167013,Sobrepredicha por modelo
+422,"C/ JORDI GIRONA, 29",Pedralbes,62.18,76.52,0.2619523048836147,43.65,32.87,Sobrevalorada por score,0.20089158,27.26,0.061061,Infrapredicha por modelo
+110,"AV. ROMA,  136",l'Antiga Esquerra de l'Eixample,62.12,76.06,0.25743983581052,42.54,33.52,Sobrevalorada por score,0.3088143,51.57,-0.051374,Sobrepredicha por modelo
+89,"C/ ROSSELLÓ,  101",la Nova Esquerra de l'Eixample,53.81,59.48,0.1881220657276995,25.41,34.07,Sobrevalorada por score,0.16729674,15.1,0.020825,Infrapredicha por modelo
+322,"C/ SANTALÓ, 165",Sant Gervasi - Galvany,50.29,50.28,0.159474257454888,16.21,34.07,Sobrevalorada por score,0.1360632,4.05,0.023411,Infrapredicha por modelo
+195,"C/ VALLESPIR, 130",les Corts,50.76,51.57,0.1616806694462289,16.57,35.0,Sobrevalorada por score,0.23452754,36.65,-0.072847,Sobrepredicha por modelo
+338,"AV. JOSEP VICENÇ FOIX, 63",Sarrià,45.45,39.23,0.0945617137625264,2.76,36.47,Sobrevalorada por score,0.16076413,12.52,-0.066202,Sobrepredicha por modelo
+22,"C/ SARDENYA, 292",la Sagrada Família,68.04,87.48,0.3009448212540354,51.01,36.47,Sobrevalorada por score,0.29178905,48.62,0.009156,Infrapredicha por modelo
+379,"AV. JOSEP TARRADELLAS, 27",Sants,64.13,79.56,0.2552537572812409,42.17,37.39,Sobrevalorada por score,0.20795366,28.36,0.0473,Infrapredicha por modelo
+561,"C/ MANILA, 53",Pedralbes,59.69,70.99,0.2242683110809383,33.15,37.84,Sobrevalorada por score,0.18203267,20.63,0.042236,Infrapredicha por modelo
+15,"C/ DIPUTACIÓ, 272",la Dreta de l'Eixample,72.41,93.55,0.3277522954942309,55.62,37.93,Sobrevalorada por score,0.26208034,41.8,0.065672,Infrapredicha por modelo
+330,"C/ PAU ALCOVER, 94",les Tres Torres,48.44,46.96,0.1264437155173497,9.02,37.94,Sobrevalorada por score,0.14370702,6.08,-0.017263,Sobrepredicha por modelo
+106,"PL JOANIC - C / BRUNIQUER, 59",la Vila de Gràcia,51.9,54.51,0.1583897540058677,15.84,38.67,Sobrevalorada por score,0.20067863,27.07,-0.042289,Sobrepredicha por modelo
+119,"C/ SARDENYA,  178",el Fort Pienc,67.53,86.92,0.2914237387297367,48.07,38.85,Sobrevalorada por score,0.34165162,57.64,-0.050228,Sobrepredicha por modelo
+95,"C/ TARRAGONA, 103-115",Hostafrancs,71.57,91.9,0.3061515425008204,52.49,39.41,Sobrevalorada por score,0.35051742,59.3,-0.044366,Sobrepredicha por modelo
+369,"C/ CONSELL DE CENT, 482",el Fort Pienc,62.28,76.8,0.2400553383357163,37.2,39.6,Sobrevalorada por score,0.2891725,48.25,-0.049117,Sobrepredicha por modelo
+518,"C/ LLOBREGÓS, 115",el Carmel,46.19,41.07,0.0831319316611776,1.47,39.6,Sobrevalorada por score,0.16572475,14.73,-0.082593,Sobrepredicha por modelo
+334,"PG. BONANOVA, 100",Sarrià,51.67,53.5,0.1507349117759212,13.63,39.87,Sobrevalorada por score,0.14497803,6.45,0.005757,Infrapredicha por modelo
+433,"C/ J. MAYNARD KEYNES, 2|AV. DGNAL.",Pedralbes,62.63,77.44,0.2401540112668763,37.38,40.06,Sobrevalorada por score,0.20302853,27.44,0.037125,Infrapredicha por modelo
+24,"C/ MARINA, 199",el Fort Pienc,61.47,75.14,0.2321650124069479,34.99,40.15,Sobrevalorada por score,0.29668555,49.72,-0.064521,Sobrepredicha por modelo
+75,"AV. JOSEP TARRADELLAS, 58",la Nova Esquerra de l'Eixample,58.56,68.88,0.2054198100814472,28.55,40.33,Sobrevalorada por score,0.21731937,31.12,-0.0119,Sobrepredicha por modelo
+105,"RDA. DE SANT PERE, 26",la Dreta de l'Eixample,75.27,97.05,0.3361653740117358,56.54,40.51,Sobrevalorada por score,0.32949057,55.25,0.006675,Infrapredicha por modelo
+497,"PTGE. MALUQUER, 16",Sant Gervasi - la Bonanova,46.57,41.9,0.0767872572222848,1.1,40.8,Sobrevalorada por score,0.15502469,9.94,-0.078237,Sobrepredicha por modelo
+21,"C/ SANT ANTONI MARIA CLARET, 214",la Sagrada Família,65.15,81.95,0.2495132978295496,40.7,41.25,Sobrevalorada por score,0.24801938,38.67,0.001494,Infrapredicha por modelo
+385,"C/ CASANOVA, 119",l'Antiga Esquerra de l'Eixample,58.36,68.32,0.1909496057593417,25.78,42.54,Sobrevalorada por score,0.19586726,25.97,-0.004918,Sobrepredicha por modelo
+67,"C/ ROCAFORT, 214 | C/ ROSSELLÓ",la Nova Esquerra de l'Eixample,60.39,72.47,0.2111570187175604,29.83,42.64,Sobrevalorada por score,0.18009937,19.89,0.031058,Infrapredicha por modelo
+84,C/ DEL COMTE D'URGELL 75 B,la Nova Esquerra de l'Eixample,74.22,96.32,0.317897063730397,53.59,42.73,Sobrevalorada por score,0.2828743,46.78,0.035023,Infrapredicha por modelo
+222,"C/ DEL CANÓ, 1",la Vila de Gràcia,55.3,62.71,0.1735800486804042,19.89,42.82,Sobrevalorada por score,0.25363088,40.15,-0.080051,Sobrepredicha por modelo
+191,"C/ ENTENÇA, 137",la Nova Esquerra de l'Eixample,57.86,67.77,0.1849912899692784,24.68,43.09,Sobrevalorada por score,0.31637484,53.41,-0.131384,Sobrepredicha por modelo
+79, PL.  UNIVERSITAT,Sant Antoni,67.31,86.19,0.2557430782523761,42.36,43.83,Sobrevalorada por score,0.23931094,37.38,0.016432,Infrapredicha por modelo
+432,"C/ MARTÍ I FRANQUÈS, 1",la Maternitat i Sant Ramon,60.52,73.3,0.208941919603265,29.28,44.02,Sobrevalorada por score,0.14693435,7.18,0.062008,Infrapredicha por modelo
+200,"C/ JOAN GÜELL, 174",les Corts,64.56,80.29,0.2355591931963573,36.1,44.19,Sobrevalorada por score,0.18928452,23.2,0.046275,Infrapredicha por modelo
+438,"C/ NÀPOLS, 183",la Dreta de l'Eixample,70.64,90.79,0.2779369147528351,46.04,44.75,Sobrevalorada por score,0.2587248,41.25,0.019212,Infrapredicha por modelo
+265,"C/ CASANOVA, 55",l'Antiga Esquerra de l'Eixample,68.48,87.94,0.259238348556325,43.09,44.85,Sobrevalorada por score,0.29999027,50.28,-0.040752,Sobrepredicha por modelo
+74,"AV. JOSEP TARRADELLAS, 133",les Corts,62.4,76.98,0.2178248301235124,31.86,45.12,Sobrevalorada por score,0.14583173,6.81,0.071993,Infrapredicha por modelo
+412,"PL. URQUINAONA, 3",la Dreta de l'Eixample,76.38,97.79,0.3070712392229665,52.67,45.12,Sobrevalorada por score,0.38123405,64.46,-0.074163,Sobrepredicha por modelo
+226,"C/ MONTMANY, 1",la Vila de Gràcia,59.12,69.8,0.1843033509700176,24.49,45.31,Sobrevalorada por score,0.22590339,34.07,-0.0416,Sobrepredicha por modelo
+365,"C/ VILADOMAT, 244",la Nova Esquerra de l'Eixample,52.4,56.17,0.136883735496981,10.5,45.67,Sobrevalorada por score,0.18310708,21.18,-0.046223,Sobrepredicha por modelo
+430," C/ ALFAMBRA, 2 | AV. DIAGONAL",Pedralbes,65.43,82.69,0.239690057349056,37.02,45.67,Sobrevalorada por score,0.14705075,7.37,0.092639,Infrapredicha por modelo
+308,"C/ CARDENAL REIG, 11",la Maternitat i Sant Ramon,63.98,78.64,0.2225709939574246,32.97,45.67,Sobrevalorada por score,0.2079463,28.18,0.014625,Infrapredicha por modelo
+5,"PG. LLUIS COMPANYS, 11 (ARC TRIOMF)","Sant Pere, Santa Caterina i la Ribera",56.79,66.21,0.174814493460951,20.44,45.77,Sobrevalorada por score,0.33400953,55.99,-0.159195,Sobrepredicha por modelo
+414,"VIVAGYM-C/ CASP, 67",la Dreta de l'Eixample,66.72,84.99,0.2445777572681125,39.04,45.95,Sobrevalorada por score,0.24243107,37.57,0.002147,Infrapredicha por modelo
+507,"C/ SARDENYA, 494",el Baix Guinardó,55.02,61.69,0.1560517325524646,15.47,46.22,Sobrevalorada por score,0.22253874,32.23,-0.066487,Sobrepredicha por modelo
+333,"PASSATGE DE SENILLOSA, 3-5",Sarrià,50.85,51.75,0.1101874838051773,5.52,46.23,Sobrevalorada por score,0.15895064,11.79,-0.048763,Sobrepredicha por modelo
+443,"C/ CASANOVA, 139",l'Antiga Esquerra de l'Eixample,64.08,79.37,0.2212304379644224,32.6,46.77,Sobrevalorada por score,0.1893609,23.39,0.03187,Infrapredicha por modelo
+198,"C/ VALLESPIR, 194",les Corts,53.28,58.75,0.1448799284502286,11.97,46.78,Sobrevalorada por score,0.22406876,33.15,-0.079189,Sobrepredicha por modelo
+20,"C/ CARTAGENA, 308",la Sagrada Família,68.91,88.95,0.2501688808826841,41.44,47.51,Sobrevalorada por score,0.20857546,28.55,0.041593,Infrapredicha por modelo
+80,"C/ ENRIC  GRANADOS, 35",l'Antiga Esquerra de l'Eixample,65.27,82.32,0.2292022054686621,34.62,47.7,Sobrevalorada por score,0.21158417,28.73,0.017618,Infrapredicha por modelo
+230,"C/ DE NIL FABRA, 16-20",la Vila de Gràcia,55.3,62.71,0.1530977556808235,14.55,48.16,Sobrevalorada por score,0.21720338,30.94,-0.064106,Sobrepredicha por modelo
+331,"C/ CASTELLNOU, 65",les Tres Torres,52.64,57.27,0.1248431823884276,8.47,48.8,Sobrevalorada por score,0.12547451,2.03,-0.000631,Sobrepredicha por modelo
+406,"GRAN VIA DE LES CORTS CATALANES, 592",la Dreta de l'Eixample,73.22,95.21,0.2782564501384852,46.22,48.99,Sobrevalorada por score,0.3057663,51.38,-0.02751,Sobrepredicha por modelo
+236,"AV. PARAL.LEL, 194",Sant Antoni,69.99,89.87,0.247148025088704,40.15,49.72,Sobrevalorada por score,0.37580532,63.54,-0.128657,Sobrepredicha por modelo
+229,"C/ DE LA SANTACREU, 2 (PL. DE LA VIRREINA)",la Vila de Gràcia,57.19,66.85,0.1638691013408973,17.13,49.72,Sobrevalorada por score,0.18594828,22.28,-0.022079,Sobrepredicha por modelo
+383,"C/ NUMÀNCIA, 2",Sants,69.12,89.13,0.2451790237163251,39.41,49.72,Sobrevalorada por score,0.23314437,35.91,0.012035,Infrapredicha por modelo
+287,"Mercado Time Out GRAN VIA , 632",la Dreta de l'Eixample,80.33,99.82,0.2970915492957746,49.91,49.91,Sobrevalorada por score,0.28865016,48.07,0.008441,Infrapredicha por modelo
+513,"VIA AUGUSTA, 317",Sarrià,50.48,51.2,0.0805192608226328,1.29,49.91,Sobrevalorada por score,0.13917214,4.42,-0.058653,Sobrepredicha por modelo
+66,"GRAN VIA DE LES CORTS CATALANES, 609",la Dreta de l'Eixample,80.13,99.45,0.2932827827263502,49.36,50.09,Sobrevalorada por score,0.31502745,53.04,-0.021745,Sobrepredicha por modelo
+454,"C/ SARDENYA, 402",el Baix Guinardó,56.34,65.29,0.1551418550630351,15.1,50.19,Sobrevalorada por score,0.2238744,32.97,-0.068733,Sobrepredicha por modelo
+76,"C/ CÒRSEGA, 216",l'Antiga Esquerra de l'Eixample,58.62,69.15,0.1713534717501081,18.78,50.37,Sobrevalorada por score,0.16456056,14.18,0.006793,Infrapredicha por modelo
+284,"AV. DIAGONAL, 652",les Corts,55.91,63.9,0.1501315295001878,13.44,50.46,Sobrevalorada por score,0.1956786,25.78,-0.045547,Sobrepredicha por modelo
+596,"C/ DIPUTACIÓ, 303",la Dreta de l'Eixample,71.53,91.71,0.2466912239244616,39.96,51.75,Sobrevalorada por score,0.26758072,43.65,-0.020889,Sobrepredicha por modelo
+29,"C/ PROVENÇA, 388-390",la Dreta de l'Eixample,64.28,79.74,0.2033502771512859,27.99,51.75,Sobrevalorada por score,0.16347538,13.63,0.039875,Infrapredicha por modelo
+494,"RBLA. CATALUNYA, 33 - C/ DIPUTACIÓ",la Dreta de l'Eixample,77.09,98.34,0.2785219094985117,46.41,51.93,Sobrevalorada por score,0.24323742,37.75,0.035284,Infrapredicha por modelo
+327,"C/ REUS, 23",Sant Gervasi - la Bonanova,53.2,58.29,0.1110985957798302,5.89,52.4,Sobrevalorada por score,0.1385794,4.24,-0.027481,Sobrepredicha por modelo
+207,"AV. DIAGONAL, 634",les Corts,64.05,79.1,0.1924350148591205,26.7,52.4,Sobrevalorada por score,0.19277672,24.49,-0.000342,Sobrepredicha por modelo
+78,PL. UNIVERSITAT /  ARIBAU,Sant Antoni,67.56,87.11,0.2276871131119865,34.25,52.86,Sobrevalorada por score,0.2841053,47.33,-0.056418,Sobrepredicha por modelo
+72,"C/ PROVENÇA, 215",la Dreta de l'Eixample,71.75,92.45,0.2447679557089732,39.23,53.22,Sobrevalorada por score,0.16245241,13.26,0.082316,Infrapredicha por modelo
+395,"PL. CATALUNYA, 20",la Dreta de l'Eixample,73.51,95.58,0.2500961148806617,41.25,54.33,Sobrevalorada por score,0.33601987,56.72,-0.085924,Sobrepredicha por modelo
+61,"C/ ARAGÓ, 288",la Dreta de l'Eixample,74.06,96.13,0.2500303461191649,41.07,55.06,Sobrevalorada por score,0.22997133,35.36,0.020059,Infrapredicha por modelo
+206,"AV. DIAGONAL, 650",les Corts,61.59,75.69,0.1727719916297138,19.71,55.98,Sobrevalorada por score,0.18232533,20.99,-0.009553,Sobrepredicha por modelo
+19,"C/ ROSSELLÓ, 354",la Sagrada Família,67.32,86.37,0.2115039597642908,30.39,55.98,Sobrevalorada por score,0.19557795,25.6,0.015926,Infrapredicha por modelo
+205,"C/ DE CAN SEGALAR, 4",les Corts,54.24,60.22,0.1024042634183479,4.05,56.17,Sobrevalorada por score,0.18607904,22.47,-0.083675,Sobrepredicha por modelo
+90,"C/ ROSSELLÓ, 108-110",l'Antiga Esquerra de l'Eixample,61.46,74.95,0.1699559757866826,18.6,56.35,Sobrevalorada por score,0.22263946,32.41,-0.052683,Sobrepredicha por modelo
+306,"C/ DOCTOR SALVADOR CARDENAL, 1-5",la Maternitat i Sant Ramon,59.69,70.99,0.1512020133723987,14.0,56.99,Sobrevalorada por score,0.18092847,20.26,-0.029726,Sobrepredicha por modelo
+1,"GRAN VIA CORTS CATALANES, 760",el Fort Pienc,66.13,83.43,0.1913431588165633,26.34,57.09,Sobrevalorada por score,0.31388718,52.85,-0.122544,Sobrepredicha por modelo
+201,"C/ NUMÀNCIA, 136",les Corts,59.72,71.27,0.1509682933243172,13.81,57.46,Sobrevalorada por score,0.17478098,17.5,-0.023813,Sobrepredicha por modelo
+510,"C/ GRAN DE GRÀCIA, 37",la Vila de Gràcia,62.63,77.44,0.1724213916433596,19.52,57.92,Sobrevalorada por score,0.17076191,16.21,0.001659,Infrapredicha por modelo
+60,"RBLA. CATALUNYA, 47",la Dreta de l'Eixample,78.63,98.9,0.2495342172761527,40.88,58.02,Sobrevalorada por score,0.2163757,30.57,0.033159,Infrapredicha por modelo
+394,"C/ DIPUTACIÓ, 226",l'Antiga Esquerra de l'Eixample,72.6,93.92,0.2348736117392833,35.73,58.19,Sobrevalorada por score,0.26527452,42.91,-0.030401,Sobrepredicha por modelo
+203,"AV. DIAGONAL, 668",les Corts,55.28,62.43,0.1041487105821191,4.24,58.19,Sobrevalorada por score,0.22890028,34.81,-0.124752,Sobrepredicha por modelo
+217,"C/ RECTOR UBACH, 24",Sant Gervasi - Galvany,62.05,75.87,0.1643474158410467,17.31,58.56,Sobrevalorada por score,0.15169242,8.66,0.012655,Infrapredicha por modelo
+364,"PG. DE GRÀCIA, 61",la Dreta de l'Eixample,75.48,97.24,0.2417410493162945,38.49,58.75,Sobrevalorada por score,0.19751649,26.15,0.044225,Infrapredicha por modelo
+2,"C/ ROGER DE FLOR, 126",el Fort Pienc,66.84,85.27,0.187323577261026,25.05,60.22,Sobrevalorada por score,0.26493546,42.54,-0.077612,Sobrepredicha por modelo
+511,"C/ GRAN DE GRÀCIA, 91",la Vila de Gràcia,65.26,82.14,0.1781584948688711,21.73,60.41,Sobrevalorada por score,0.15976882,11.97,0.01839,Infrapredicha por modelo
+554,"C/ AVENIR, 35",Sant Gervasi - Galvany,55.79,63.72,0.1005924402663533,2.95,60.77,Sobrevalorada por score,0.16135336,12.89,-0.060761,Sobrepredicha por modelo
+337,"C/ CARME KARR, 12-14",Sarrià,57.61,67.59,0.1154615968342407,6.63,60.96,Sobrevalorada por score,0.12428376,1.66,-0.008822,Sobrepredicha por modelo
+223,"C/ DE BONAVISTA, 14",la Vila de Gràcia,66.66,84.53,0.1798882286361064,22.47,62.06,Sobrevalorada por score,0.15496638,9.76,0.024922,Infrapredicha por modelo
+23,"C/ BRUC, 45",la Dreta de l'Eixample,73.17,95.03,0.2208266479475865,32.23,62.8,Sobrevalorada por score,0.27887768,45.49,-0.058051,Sobrepredicha por modelo
+360,"C/ BAILÉN, 62",la Dreta de l'Eixample,66.16,83.61,0.1750789711191336,20.63,62.98,Sobrevalorada por score,0.22116396,31.68,-0.046085,Sobrepredicha por modelo
+374,"PG. DE GRÀCIA, 89",la Dreta de l'Eixample,85.64,100.0,0.2358482484005496,36.28,63.72,Sobrevalorada por score,0.17971985,19.71,0.056128,Infrapredicha por modelo
+599,"C/ VALÈNCIA, 312 (xamfrà)",la Dreta de l'Eixample,72.9,94.84,0.2114613376947071,30.2,64.64,Sobrevalorada por score,0.13555668,3.87,0.075905,Infrapredicha por modelo
+108,"C / INDÚSTRIA, 10",el Camp d'en Grassot i Gràcia Nova,67.29,85.82,0.1755684255684255,21.18,64.64,Sobrevalorada por score,0.17150961,16.57,0.004059,Infrapredicha por modelo
+204,"AV. DIAGONAL, 672",Pedralbes,64.05,79.1,0.152847265741378,14.36,64.74,Sobrevalorada por score,0.19182122,24.13,-0.038974,Sobrepredicha por modelo
+196,"C/ BERLÍN, 38",Sants,70.48,90.42,0.1891379195079556,25.6,64.82,Sobrevalorada por score,0.18677248,22.84,0.002365,Infrapredicha por modelo
+547,"C/ MALLORCA, 194 (xamfrà)",l'Antiga Esquerra de l'Eixample,71.7,92.27,0.1969888676877238,27.44,64.83,Sobrevalorada por score,0.22513798,33.7,-0.028149,Sobrepredicha por modelo
+367,"C/ MARQUÈS DE SENTMENAT, 46",les Corts,67.3,86.0,0.1754577464788732,20.99,65.01,Sobrevalorada por score,0.19398436,25.05,-0.018527,Sobrepredicha por modelo
+413,"C/ BRUC, 66",la Dreta de l'Eixample,78.73,99.08,0.2270045666756495,34.07,65.01,Sobrevalorada por score,0.21603972,30.2,0.010965,Infrapredicha por modelo
+120,"C/ LEPANT,  278",la Sagrada Família,67.21,85.64,0.1746157068737714,20.07,65.57,Sobrevalorada por score,0.2469037,38.31,-0.072288,Sobrepredicha por modelo
+305,"AV. DIAGONAL, 680",Pedralbes,69.66,89.69,0.1830818988002086,23.94,65.75,Sobrevalorada por score,0.19376871,24.86,-0.010687,Sobrepredicha por modelo
+496,"C/ PROVENÇA,  445",la Sagrada Família,65.05,81.4,0.1560032191539661,15.29,66.11,Sobrevalorada por score,0.17607872,17.86,-0.020076,Sobrepredicha por modelo
+600,"C/ VALÈNCIA, 237",la Dreta de l'Eixample,77.46,98.71,0.2113655138748075,30.02,68.69,Sobrevalorada por score,0.23436728,36.46,-0.023002,Sobrepredicha por modelo
+492,PL. TETUAN,la Dreta de l'Eixample,67.37,86.56,0.1664132026585558,17.68,68.88,Sobrevalorada por score,0.27436307,45.3,-0.10795,Sobrepredicha por modelo
+350,"C/ LONDRES, 63",l'Antiga Esquerra de l'Eixample,65.07,81.58,0.1441309255079007,11.6,69.98,Sobrevalorada por score,0.14501972,6.63,-0.000889,Sobrepredicha por modelo
+362,"C/ BAILÉN, 100",la Dreta de l'Eixample,76.22,97.42,0.1920713682432432,26.52,70.9,Sobrevalorada por score,0.14357945,5.89,0.048492,Infrapredicha por modelo
+18,"C/ ROSSELLÓ, 453",la Sagrada Família,72.32,93.37,0.1795334159810661,22.28,71.09,Sobrevalorada por score,0.2295275,35.17,-0.049994,Sobrepredicha por modelo
+209,"C/ DIPUTACIÓ, 200",l'Antiga Esquerra de l'Eixample,77.04,98.16,0.1926367564665436,27.07,71.09,Sobrevalorada por score,0.326118,54.33,-0.133481,Sobrepredicha por modelo
+208,"AV. DIAGONAL, 630",Sant Gervasi - Galvany,60.54,73.48,0.0936601836568003,2.21,71.27,Sobrevalorada por score,0.17463356,17.31,-0.080973,Sobrepredicha por modelo
+220,"C/ TUSET, 19",Sant Gervasi - Galvany,70.93,90.98,0.1721848216263199,18.97,72.01,Sobrevalorada por score,0.14775063,7.55,0.024434,Infrapredicha por modelo
+319,"C/ SAGUÉS, 1",Sant Gervasi - Galvany,64.65,80.48,0.1127480160541663,6.45,74.03,Sobrevalorada por score,0.13111675,3.13,-0.018369,Sobrepredicha por modelo
+368,"C/ DIPUTACIÓ, 373",la Dreta de l'Eixample,73.28,95.4,0.1768424792872742,21.36,74.04,Sobrevalorada por score,0.29474702,49.17,-0.117905,Sobrepredicha por modelo
+465,"C/ ROSSELLÓ, 261",la Dreta de l'Eixample,77.2,98.53,0.1837785040760359,24.31,74.22,Sobrevalorada por score,0.1863456,22.65,-0.002567,Sobrepredicha por modelo
+88,"C/ LONDRES, 101-103",l'Antiga Esquerra de l'Eixample,66.98,85.45,0.1407945298372513,10.68,74.77,Sobrevalorada por score,0.16586964,14.92,-0.025075,Sobrepredicha por modelo
+92,"C / PROVENÇA, 241",la Dreta de l'Eixample,80.17,99.63,0.1812671245730585,23.57,76.06,Sobrevalorada por score,0.19325659,24.68,-0.011989,Sobrepredicha por modelo
+370,"C/ SARDENYA, 326",la Sagrada Família,67.76,87.29,0.1420438542136097,10.87,76.42,Sobrevalorada por score,0.205241,27.81,-0.063197,Sobrepredicha por modelo
+73,"C/ ENRIC GRANADOS, 93",l'Antiga Esquerra de l'Eixample,72.89,94.66,0.1656008976653193,17.5,77.16,Sobrevalorada por score,0.19826803,26.34,-0.032667,Sobrepredicha por modelo
+189,"C/ BRUC, 130",la Dreta de l'Eixample,72.82,94.11,0.162887760857304,16.94,77.17,Sobrevalorada por score,0.124416634,1.84,0.038471,Infrapredicha por modelo
+25,"C/ BRUC, 102",la Dreta de l'Eixample,65.33,82.5,0.1086006104593465,5.16,77.34,Sobrevalorada por score,0.2236219,32.78,-0.115021,Sobrepredicha por modelo
+221,"GRAN DE GRÀCIA, 155 (METRO FONTANA)",la Vila de Gràcia,68.48,87.94,0.1359775099496883,10.31,77.63,Sobrevalorada por score,0.13450713,3.68,0.00147,Infrapredicha por modelo
+101,"AV. DIAGONAL, 602",Sant Gervasi - Galvany,72.86,94.29,0.1578665010164897,15.65,78.64,Sobrevalorada por score,0.101994395,0.37,0.055872,Infrapredicha por modelo
+27,"C/ PROVENÇA, 322",la Dreta de l'Eixample,64.68,80.66,0.0766652979588593,0.92,79.74,Sobrevalorada por score,0.1512026,8.47,-0.074537,Sobrepredicha por modelo
+595,"C/ BRUC, 88",la Dreta de l'Eixample,68.31,87.66,0.1211452813169466,7.55,80.11,Sobrevalorada por score,0.21254718,29.1,-0.091402,Sobrepredicha por modelo
+109,"C/ LONDRES,  53",l'Antiga Esquerra de l'Eixample,69.6,89.5,0.1264120291661944,8.66,80.84,Sobrevalorada por score,0.17108434,16.39,-0.044672,Sobrepredicha por modelo
+224,"C / GIRONA, 176",la Dreta de l'Eixample,71.5,91.34,0.1271982665222102,9.39,81.95,Sobrevalorada por score,0.14127521,4.79,-0.014077,Sobrepredicha por modelo
+107,"TRAV. DE GRÀCIA, 92 / VIA AUGUSTA",Sant Gervasi - Galvany,70.09,90.06,0.1220380601596071,8.1,81.96,Sobrevalorada por score,0.14348498,5.71,-0.021447,Sobrepredicha por modelo
+320,"C/ MADRAZO, 39",Sant Gervasi - Galvany,66.35,83.98,0.0888052838391438,1.84,82.14,Sobrevalorada por score,0.15749325,11.05,-0.068688,Sobrepredicha por modelo
+553,"VIA AUGUSTA, 68",la Vila de Gràcia,66.1,83.24,0.0765286705006765,0.74,82.5,Sobrevalorada por score,0.14371108,6.26,-0.067182,Sobrepredicha por modelo
+597,"C/ PROVENÇA, 310",la Dreta de l'Eixample,74.99,96.69,0.1497401280854761,13.08,83.61,Sobrevalorada por score,0.16995946,16.02,-0.020219,Sobrepredicha por modelo
+598,"C/ BRUC, 103 (xamfrà)",la Dreta de l'Eixample,72.19,92.63,0.1177954684629516,6.81,85.82,Sobrevalorada por score,0.19011775,23.76,-0.072322,Sobrepredicha por modelo
+219,"C/ LAFORJA, 74-76",Sant Gervasi - Galvany,69.54,89.32,0.1015429741738406,3.5,85.82,Sobrevalorada por score,0.16794088,15.65,-0.066398,Sobrepredicha por modelo
+102,"AV. DIAGONAL,  612",Sant Gervasi - Galvany,71.68,92.08,0.0937665381416799,2.39,89.69,Sobrevalorada por score,0.15439084,9.39,-0.060624,Sobrepredicha por modelo
+68,"RAMBLA CATALUNYA, 133 /  CÒRSEGA",la Dreta de l'Eixample,76.24,97.61,0.121433250305617,7.73,89.88,Sobrevalorada por score,0.20376064,27.62,-0.082327,Sobrepredicha por modelo
+123,"C/ PROVENÇA, 317",la Dreta de l'Eixample,79.95,99.26,0.1190824635606803,7.18,92.08,Sobrevalorada por score,0.15814237,11.23,-0.03906,Sobrepredicha por modelo

@@ -1,0 +1,383 @@
+stop_name,line,entrance_name,entrance_id,lat,lon
+Alfons X,['L4'],Lepant,1882893055.0,41.4120907,2.1655167
+Alfons X,['L4'],Plaça Alfons el Savi,1882893056.0,41.4120907,2.1655167
+Alfons X,['L4'],Ronda Guinardó,1882893058.0,41.4120907,2.1655167
+Arc de Triomf,['L1'],Avinguda de Vilanova,10620621284.0,41.392103,2.1809408
+Arc de Triomf,['L1'],Nàpols,772984597.0,41.392103,2.1809408
+Arc de Triomf,['L1'],Roger de Flor,4444242719.0,41.392103,2.1809408
+Avinguda Tibidabo,['L7'],Plaça Kennedy,6356113187.0,41.4093962,2.1372972
+Bac de Roda,['L2'],Bac de Roda,3370613720.0,41.4148468,2.1951542
+Bac de Roda,['L2'],Fluvià,3370613719.0,41.4148468,2.1951542
+Badal,['L5'],Carrer de Sants,6484166047.0,41.3755675,2.1273397
+Badal,['L5'],Carrer de Sants / Arizala,3618492269.0,41.3755675,2.1273397
+Badal,['L5'],Carreras i Candi,3618504582.0,41.3755675,2.1273397
+Baixador de Vallvidrera,"['S1', 'S2']",Baixador de Vallvidrera,,41.4198107,2.0972285
+Barcelona - Sants,"['R15', 'R2N', 'R17', 'R14', 'R13', 'R16', 'Long distance', 'R2', 'R11', 'R2S']",Barcelona - Sants,,41.3788044,2.1406683
+Barcelona - Sants,"['R4', 'RG1', 'R1']",Barcelona - Sants,,41.3790581,2.1403805
+Barcelona-Arc de Triomf,"['R4', 'RG1', 'R1']",Avinguda de Vilanova,10620621284.0,41.3922652,2.1810426
+Barcelona-Arc de Triomf,"['R4', 'RG1', 'R1']",Nàpols,772984597.0,41.3922652,2.1810426
+Barcelona-Arc de Triomf,"['R4', 'RG1', 'R1']",Roger de Flor,4444242719.0,41.3922652,2.1810426
+Barcelona-El Clot,"['RG1', 'R1']",Aragó,4341391437.0,41.4090414,2.1874883
+Barcelona-El Clot,"['R2N', 'R11', 'R2']",Aragó,4341391437.0,41.4091886,2.1873137
+Barcelona-El Clot,"['RG1', 'R1']",Aragó / Meridiana,401882327.0,41.4090414,2.1874883
+Barcelona-El Clot,"['R2N', 'R11', 'R2']",Aragó / Meridiana,401882327.0,41.4091886,2.1873137
+Barcelona-El Clot,"['RG1', 'R1']",Canonge Rodó,4258771236.0,41.4090414,2.1874883
+Barcelona-El Clot,"['R2N', 'R11', 'R2']",Canonge Rodó,4258771236.0,41.4091886,2.1873137
+Barcelona-Estació de França,"['R15', 'R17', 'R14', 'R13', 'R16', 'Long distance', 'R2S']",Barcelona-Estació de França,,41.3839605,2.1854324
+Barcelona-Fabra i Puig,['R4'],Barcelona-Fabra i Puig,,41.4307163,2.1830842
+Barcelona-Fabra i Puig,['R7'],Barcelona-Fabra i Puig,,41.4307179,2.1832744
+Barcelona-La Sagrera-Meridiana,['R4'],Martí Molins,2876034422.0,41.4229693,2.1867776
+Barcelona-Passeig de Gràcia,"['R15', 'R2N', 'R17', 'R14', 'R13', 'R16', 'Long distance', 'R2', 'R11', 'R2S']",Aragó / Pau Claris,1238021398.0,41.39253,2.1653922
+Barcelona-Passeig de Gràcia,"['R15', 'R2N', 'R17', 'R14', 'R13', 'R16', 'Long distance', 'R2', 'R11', 'R2S']",Aragó / Rambla Catalunya,1238021397.0,41.39253,2.1653922
+Barcelona-Passeig de Gràcia,"['R15', 'R2N', 'R17', 'R14', 'R13', 'R16', 'Long distance', 'R2', 'R11', 'R2S']",Aragó / València,1238021396.0,41.39253,2.1653922
+Barcelona-Plaça Catalunya,"['S1', 'S2']",Balmes-Pelai,2927944588.0,41.3856666,2.1683735
+Barcelona-Plaça Catalunya,['L6'],Balmes-Pelai,2927944588.0,41.3857427,2.1683819
+Barcelona-Plaça Catalunya,['L7'],Balmes-Pelai,2927944588.0,41.3859261,2.1684061
+Barcelona-Plaça Catalunya,"['S1', 'S2']",Bergara,4508722585.0,41.3856666,2.1683735
+Barcelona-Plaça Catalunya,['L6'],Bergara,4508722585.0,41.3857427,2.1683819
+Barcelona-Plaça Catalunya,['L7'],Bergara,4508722585.0,41.3859261,2.1684061
+Barcelona-Plaça Catalunya,"['S1', 'S2']",La Rambla,1238021391.0,41.3856666,2.1683735
+Barcelona-Plaça Catalunya,['L6'],La Rambla,1238021391.0,41.3857427,2.1683819
+Barcelona-Plaça Catalunya,['L7'],La Rambla,1238021391.0,41.3859261,2.1684061
+Barcelona-Plaça Catalunya,"['S1', 'S2']",Pelai,1238021393.0,41.3856666,2.1683735
+Barcelona-Plaça Catalunya,['L6'],Pelai,1238021393.0,41.3857427,2.1683819
+Barcelona-Plaça Catalunya,['L7'],Pelai,1238021393.0,41.3859261,2.1684061
+Barcelona-Plaça Espanya,"['R5', 'R50', 'S8', 'R60', 'S4', 'R6']",Gran Via,10904838162.0,41.3743238,2.1485668
+Barcelona-Plaça Espanya,"['S9', 'L8', 'S3']",Gran Via,10904838162.0,41.3744634,2.1484354
+Barcelona-Plaça de Catalunya,"['R4', 'RG1', 'R1']",Centre Plaça,3141961383.0,41.3875444,2.1693171
+Barcelona-Plaça de Catalunya,"['R4', 'RG1', 'R1']",Passeig de Gràcia,1400468988.0,41.3875444,2.1693171
+Barcelona-Plaça de Catalunya,"['R4', 'RG1', 'R1']",Rambla Catalunya,1400468983.0,41.3875444,2.1693171
+Barcelona-Plaça de Catalunya,"['R4', 'RG1', 'R1']",Ronda Sant Pere,1400468986.0,41.3875444,2.1693171
+Barcelona-Plaça de Catalunya,"['R4', 'RG1', 'R1']",Ronda Universitat,1400468977.0,41.3875444,2.1693171
+Barcelona-Sant Andreu,"['R2N', 'R11', 'R2']",Barcelona-Sant Andreu,,41.4362383,2.1938193
+Barcelona-Torre Baró | Vallbona,"['R4', 'R7']",Barcelona-Torre Baró | Vallbona,,41.4616141,2.1804613
+Barceloneta,['L4'],Plaça Pau Vila,880533912.0,41.3820417,2.1854434
+Baró de Viver,['L1'],Riu Besòs,3316542520.0,41.4499297,2.1995232
+Besòs,['L4'],Besòs,3371093191.0,41.4204312,2.2096327
+Besòs Mar,['L4'],Besòs Mar,3371093192.0,41.4150611,2.2160956
+Bogatell,['L4'],Pujades,4393287444.0,41.3951757,2.1921294
+Bogatell,['L4'],Pujades / Pere IV,312891593.0,41.3951757,2.1921294
+Bon Pastor,"['L9N', 'L10 Nord']",Bon Pastor,4701789263.0,41.4360724,2.2048156
+Camp de l'Arpa,['L5'],Indústria,3311803593.0,41.4146801,2.1810057
+Camp de l'Arpa,['L5'],Pg. Maragall,3311803594.0,41.4146801,2.1810057
+Canyelles,['L3'],García Lorca,2447046439.0,41.4417043,2.1663983
+Canyelles,['L3'],Via Favència,2447046438.0,41.4417043,2.1663983
+Casa de l'Aigua,['L11'],Aiguablava,5319124080.0,41.4511202,2.1847194
+Catalunya,['L3'],Centre Plaça,3141961383.0,41.3861607,2.1700763
+Catalunya,['L1'],Centre Plaça,3141961383.0,41.3875716,2.1695044
+Catalunya,['L3'],La Rambla,1238021391.0,41.3861607,2.1700763
+Catalunya,['L1'],La Rambla,1238021391.0,41.3875716,2.1695044
+Catalunya,['L3'],Passeig de Gràcia,1400468988.0,41.3861607,2.1700763
+Catalunya,['L1'],Passeig de Gràcia,1400468988.0,41.3875716,2.1695044
+Catalunya,['L3'],Pelai,1238021393.0,41.3861607,2.1700763
+Catalunya,['L1'],Pelai,1238021393.0,41.3875716,2.1695044
+Catalunya,['L3'],Rambla Catalunya,1400468983.0,41.3861607,2.1700763
+Catalunya,['L1'],Rambla Catalunya,1400468983.0,41.3875716,2.1695044
+Catalunya,['L3'],Ronda Sant Pere,1400468986.0,41.3861607,2.1700763
+Catalunya,['L1'],Ronda Sant Pere,1400468986.0,41.3875716,2.1695044
+Catalunya,['L3'],Ronda Universitat,1400468977.0,41.3861607,2.1700763
+Catalunya,['L1'],Ronda Universitat,1400468977.0,41.3875716,2.1695044
+Ciutadella | Vila Olímpica,['L4'],Avinguda Icària,401894783.0,41.3866663,2.1929982
+Ciutadella | Vila Olímpica,['L4'],Zoo,401894786.0,41.3866663,2.1929982
+Ciutat Meridiana,['L11'],Avinguda Rasos de Peguera,7078630497.0,41.4608134,2.1746409
+Congrés | Indians,['L5'],Francesc Tàrrega,3010448540.0,41.4233994,2.1812721
+Congrés | Indians,['L5'],Matanzas,2888914134.0,41.4233994,2.1812721
+Diagonal,['L5'],Diagonal / Pau Claris,1238021400.0,41.3944556,2.1588781
+Diagonal,['L3'],Diagonal / Pau Claris,1238021400.0,41.3959435,2.1599471
+Diagonal,['L5'],Diagonal / Rambla Catalunya,1238021399.0,41.3944556,2.1588781
+Diagonal,['L3'],Diagonal / Rambla Catalunya,1238021399.0,41.3959435,2.1599471
+Diagonal,['L5'],Pg. de Gràcia (escala mecànica),4210535558.0,41.3944556,2.1588781
+Diagonal,['L3'],Pg. de Gràcia (escala mecànica),4210535558.0,41.3959435,2.1599471
+Diagonal,['L5'],Pg. de Gràcia / Pau Claris,1499890031.0,41.3944556,2.1588781
+Diagonal,['L3'],Pg. de Gràcia / Pau Claris,1499890031.0,41.3959435,2.1599471
+Diagonal,['L5'],Pg. de Gràcia / Rambla Catalunya,1238021401.0,41.3944556,2.1588781
+Diagonal,['L3'],Pg. de Gràcia / Rambla Catalunya,1238021401.0,41.3959435,2.1599471
+Diagonal,['L5'],Rambla Catalunya,1457984786.0,41.3944556,2.1588781
+Diagonal,['L3'],Rambla Catalunya,1457984786.0,41.3959435,2.1599471
+Diagonal,['L5'],Rosselló / FGC,1457984771.0,41.3944556,2.1588781
+Diagonal,['L3'],Rosselló / FGC,1457984771.0,41.3959435,2.1599471
+Ecoparc,['L10S'],Carrer A (costat mar),9232630589.0,41.33016,2.1371535
+Ecoparc,['L10S'],Carrer A / Carrer 4,9232630590.0,41.33016,2.1371535
+Ecoparc,['L10S'],Ecoparc,9232630587.0,41.33016,2.1371535
+El Coll | La Teixonera,['L5'],Arenys,1374538753.0,41.4216038,2.1493364
+El Coll | La Teixonera,['L5'],Beat Almató,2167282018.0,41.4216038,2.1493364
+El Coll | La Teixonera,['L5'],Passeig Mare de Déu del Coll,2167285895.0,41.4216038,2.1493364
+El Maresme | Fòrum,['L4'],El Maresme | Fòrum,3316439519.0,41.4117642,2.2166942
+El Poble-sec,['L3'],Manso,1238021381.0,41.3749709,2.160581
+El Poble-sec,['L3'],Parlament,1238021383.0,41.3749709,2.160581
+El Poble-sec,['L3'],Teodor Bonaplata,1238021382.0,41.3749709,2.160581
+El Putxet,['L7'],Balmes,6356668682.0,41.4058005,2.139121
+El Putxet,['L7'],Joaquim Folguera,6356668683.0,41.4058005,2.139121
+Encants,['L2'],València / Aragó,4347541339.0,41.4070719,2.1825788
+Encants,['L2'],València / Mallorca,3372312637.0,41.4070719,2.1825788
+Entença,['L5'],Entença,2492717380.0,41.3840032,2.1450263
+Ernest Lluch,['L5'],Av. Xile,8939944754.0,41.3759207,2.1120358
+Ernest Lluch,['L5'],Cementiri de Sants,8939944753.0,41.3759207,2.1120358
+Espanya,['L3'],Avinguda Paral·lel,312682353.0,41.3749934,2.151522
+Espanya,['L1'],Avinguda Paral·lel,312682353.0,41.3755248,2.1494757
+Espanya,['L3'],Creu Coberta,341158187.0,41.3749934,2.151522
+Espanya,['L1'],Creu Coberta,341158187.0,41.3755248,2.1494757
+Espanya,['L3'],Exposició,312682352.0,41.3749934,2.151522
+Espanya,['L1'],Exposició,312682352.0,41.3755248,2.1494757
+Espanya,['L3'],Exposició / Gran Via,3387999487.0,41.3749934,2.151522
+Espanya,['L1'],Exposició / Gran Via,3387999487.0,41.3755248,2.1494757
+Espanya,['L3'],Exposició / Paral·lel,3387999459.0,41.3749934,2.151522
+Espanya,['L1'],Exposició / Paral·lel,3387999459.0,41.3755248,2.1494757
+Espanya,['L3'],Tarragona,10120557038.0,41.3749934,2.151522
+Espanya,['L1'],Tarragona,10120557038.0,41.3755248,2.1494757
+Fabra i Puig,['L1'],Av. Meridiana,420892463.0,41.4297355,2.1836441
+Fabra i Puig,['L1'],Concepció Arenal,4449336726.0,41.4297355,2.1836441
+Fabra i Puig,['L1'],Pg. Fabra i Puig,420892462.0,41.4297355,2.1836441
+Fabra i Puig,['L1'],Renfe,1297710576.0,41.4297355,2.1836441
+Fabra i Puig,['L1'],Sòcrates,4449336730.0,41.4297355,2.1836441
+Foc,['L10S'],Fira Gran Via (Pavellons 6·7·8),5891472122.0,41.3558261,2.1421064
+Foc,['L10S'],Foc (costat Montjuïc),5891472123.0,41.3558261,2.1421064
+Foneria,['L10S'],Jardins dels Drets Humans,5891472124.0,41.3604808,2.1387117
+Foneria,['L10S'],Mercat de la Marina,5891472125.0,41.3604808,2.1387117
+Fontana,['L3'],Fontana / Gran de Gràcia / Astúries,401881113.0,41.4020352,2.1529762
+Girona,['L4'],Girona,3311911810.0,41.3950069,2.1709586
+Glòries,['L1'],Avinguda Meridiana,399887497.0,41.4019718,2.187127
+Glòries,['L1'],Badajoz,12070441450.0,41.4029835,2.1883653
+Glòries,['L1'],Plaça de les Glòries Catalanes,11175367882.0,41.4028732,2.1871711
+Gràcia,['L7'],Gal·la Placídia,5308271841.0,41.3991736,2.1524262
+Gràcia,"['S1', 'L6', 'S2']",Gal·la Placídia,5308271841.0,41.3992091,2.1524876
+Gràcia,['L7'],Via Augusta - Marià Cubí,5485540667.0,41.3991736,2.1524262
+Gràcia,"['S1', 'L6', 'S2']",Via Augusta - Marià Cubí,5485540667.0,41.3992091,2.1524876
+Guinardó | Hospital de Sant Pau,['L4'],Hospital de Sant Pau,3371097298.0,41.4160817,2.1740902
+Guinardó | Hospital de Sant Pau,['L4'],Sant Quintí,3311911805.0,41.4160817,2.1740902
+Horta,['L5'],Horta,522716891.0,41.4296386,2.1602387
+Horta,['L5'],Pl. Eivissa,522716918.0,41.4296386,2.1602387
+Horta,['L5'],Tajo,522716906.0,41.4296386,2.1602387
+Hospital Clínic,['L5'],Rosselló,879026904.0,41.388596,2.1510856
+Hospital Clínic,['L5'],Villarroel,879026946.0,41.388596,2.1510856
+Hostafrancs,['L1'],Consell de Cent,4444242728.0,41.3752298,2.143673
+Hostafrancs,['L1'],Consell de Cent / Mercat,4444242731.0,41.3752298,2.143673
+Hostafrancs,['L1'],Hostafrancs,4344578878.0,41.3752298,2.143673
+Jaume I,['L4'],Argenteria,3311911815.0,41.3840029,2.1786463
+Jaume I,['L4'],Plaça de l'Àngel,2888687438.0,41.3840029,2.1786463
+Joanic,['L4'],Escorial,3311911807.0,41.4063556,2.1632182
+Joanic,['L4'],Pi i Margall,3371097297.0,41.4063556,2.1632182
+La Bonanova,"['S1', 'L6', 'S2']",Via Augusta-Ganduxer,10881225405.0,41.3977612,2.1361556
+La Pau,"['L2', 'L4']",Rambla Guipúscoa / Ca n'Oliva,3370613716.0,41.4233983,2.2060245
+La Rambla | Drassanes,['L3'],Drassanes,856712226.0,41.3766656,2.1757948
+La Rambla | Drassanes,['L3'],La Rambla,430375174.0,41.3766656,2.1757948
+La Rambla | Drassanes,['L3'],Santa Madrona,856712230.0,41.3766656,2.1757948
+La Sagrera,"['L9N', 'L10 Nord']",Felip II,2876034423.0,41.4204101,2.186811
+La Sagrera,['L5'],Felip II,2876034423.0,41.4212771,2.1866174
+La Sagrera,['L1'],Felip II,2876034423.0,41.4226197,2.1869981
+La Sagrera,"['L9N', 'L10 Nord']",Garcilaso,420892468.0,41.4204101,2.186811
+La Sagrera,['L5'],Garcilaso,420892468.0,41.4212771,2.1866174
+La Sagrera,['L1'],Garcilaso,420892468.0,41.4226197,2.1869981
+La Sagrera,"['L9N', 'L10 Nord']",Hondures,4449402215.0,41.4204101,2.186811
+La Sagrera,['L5'],Hondures,4449402215.0,41.4212771,2.1866174
+La Sagrera,['L1'],Hondures,4449402215.0,41.4226197,2.1869981
+La Sagrera,"['L9N', 'L10 Nord']",Jardins d'Elx,420892466.0,41.4204101,2.186811
+La Sagrera,['L5'],Jardins d'Elx,420892466.0,41.4212771,2.1866174
+La Sagrera,['L1'],Jardins d'Elx,420892466.0,41.4226197,2.1869981
+La Sagrera,"['L9N', 'L10 Nord']",Meridiana | Hondures,420892467.0,41.4204101,2.186811
+La Sagrera,['L5'],Meridiana | Hondures,420892467.0,41.4212771,2.1866174
+La Sagrera,['L1'],Meridiana | Hondures,420892467.0,41.4226197,2.1869981
+Les Planes,"['S1', 'S2']",Les Planes,,41.4267592,2.0918654
+Les Tres Torres,"['S1', 'L6', 'S2']",Via Augusta-Doctor Roux,10881193507.0,41.3977451,2.1308599
+Les Tres Torres,"['S1', 'L6', 'S2']",Via Augusta-Rosari,10881193508.0,41.3977451,2.1308599
+Lesseps,['L3'],Plaça Lesseps,1695244233.0,41.4055487,2.150558
+Lesseps,['L3'],Septimània,1238021404.0,41.4055487,2.150558
+Liceu,['L3'],La Rambla / Mercat de la Boqueria,1238021386.0,41.3813895,2.1730568
+Liceu,['L3'],La Rambla / Teatre Liceu,401889124.0,41.3813895,2.1730568
+Llacuna,['L4'],Llacuna,371064282.0,41.3993689,2.1976647
+Llucmajor | República,['L4'],Passeig Verdum / Llucmajor,371157664.0,41.4369972,2.1733817
+Llucmajor | República,['L4'],Pi i Molist,371158053.0,41.4369972,2.1733817
+Llucmajor | República,['L4'],Plaça Jardins d'Alfàbia,371157970.0,41.4369972,2.1733817
+Magòria-La Campana,"['S9', 'S3', 'R5', 'S8', 'L8', 'S4', 'R6']",Magòria-La Campana,11435529406.0,41.3676257,2.1390265
+Magòria-La Campana,['R60'],Magòria-La Campana,11435529406.0,41.3678433,2.1393721
+Maragall,['L5'],Av. dels Quinze,3311823786.0,41.4256902,2.1760506
+Maragall,['L5'],Prat d'en Roquer,3311823785.0,41.4255494,2.1763892
+Maragall,['L4'],Ramon Albó,371158314.0,41.4244794,2.1771671
+Maragall,['L4'],Ronda Guinardó,3311823783.0,41.4225305,2.1773963
+Maria Cristina,['L3'],Capità Arenas,2657766265.0,41.3879205,2.1262318
+Maria Cristina,['L3'],Gran Via Carles III,2657766264.0,41.3879205,2.1262318
+Marina,['L1'],Almogàvers,3316542523.0,41.3949138,2.1862351
+Marina,['L1'],Marina,3316542522.0,41.3949138,2.1862351
+Mercabarna,['L9 Sud'],Carrer K - Carrer Transversal 6,8118853274.0,41.3335424,2.1112432
+Mercat Nou,['L1'],Riera de Tena,4384208131.0,41.3728241,2.1332717
+Montbau,['L3'],Jardins de Pedro Muñoz Seca,3170159052.0,41.430589,2.145064
+Montbau,['L3'],Ronda de Dalt / Pare Mariana,1238021412.0,41.430589,2.145064
+Monumental,['L2'],Marina / Plaça de Toros,3372312638.0,41.4002844,2.1795937
+Monumental,['L2'],Monumental,3372312639.0,41.4002844,2.1795937
+Mundet,['L3'],Can Marcet,2077493528.0,41.435556,2.1484599
+Mundet,['L3'],Pg. Vall d'Hebron,1238021415.0,41.435556,2.1484599
+Mundet,['L3'],Salesians,5311739168.0,41.435556,2.1484599
+Muntaner,"['S1', 'L6', 'S2']",Via Augusta-Muntaner,6389248700.0,41.398649,2.1428285
+Muntaner,"['S1', 'L6', 'S2']",Via Augusta-Santaló,6387316990.0,41.398649,2.1428285
+Navas,['L1'],Biscaia,4449402213.0,41.4160424,2.1869165
+Navas,['L1'],Navas de Tolosa,3316542521.0,41.4160424,2.1869165
+Onze de Setembre,"['L9N', 'L10 Nord']",Onze de Setembre,1238018161.0,41.4296994,2.1933991
+Palau Reial,['L3'],Av. Diagonal,1430005146.0,41.3857929,2.1178611
+Palau Reial,['L3'],Palau de Pedralbes,191801277.0,41.3857929,2.1178611
+Paral·lel,['L3'],Avinguda Paral·lel,1009334250.0,41.3748697,2.1692493
+Paral·lel,['L2'],Avinguda Paral·lel,1009334250.0,41.3749769,2.1692538
+Paral·lel,['L3'],Fontrodona,194531978.0,41.3748697,2.1692493
+Paral·lel,['L2'],Fontrodona,194531978.0,41.3749769,2.1692538
+Paral·lel,['L3'],Nou de la Rambla,1009334331.0,41.3748697,2.1692493
+Paral·lel,['L2'],Nou de la Rambla,1009334331.0,41.3749769,2.1692538
+Paral·lel,['L3'],Ronda Sant Pau,194531874.0,41.3748697,2.1692493
+Paral·lel,['L2'],Ronda Sant Pau,194531874.0,41.3749769,2.1692538
+Parc Logístic,['L9 Sud'],Av. Parc Logístic/C. Número Un,8116659428.0,41.3418089,2.128048
+Parc Logístic,['L9 Sud'],Av. Parc Logístic/C. Número Vint-i-cinc,8116659429.0,41.3418089,2.128048
+Passeig de Gràcia,['L2'],Aragó / Pau Claris,1238021398.0,41.3893375,2.1684021
+Passeig de Gràcia,['L4'],Aragó / Pau Claris,1238021398.0,41.3899486,2.1679219
+Passeig de Gràcia,['L3'],Aragó / Pau Claris,1238021398.0,41.3915853,2.1653415
+Passeig de Gràcia,['L2'],Aragó / Rambla Catalunya,1238021395.0,41.3893375,2.1684021
+Passeig de Gràcia,['L4'],Aragó / Rambla Catalunya,1238021395.0,41.3899486,2.1679219
+Passeig de Gràcia,['L3'],Aragó / Rambla Catalunya,1238021395.0,41.3915853,2.1653415
+Passeig de Gràcia,['L2'],Consell de Cent,1238021394.0,41.3893375,2.1684021
+Passeig de Gràcia,['L4'],Consell de Cent,1238021394.0,41.3899486,2.1679219
+Passeig de Gràcia,['L3'],Consell de Cent,1238021394.0,41.3915853,2.1653415
+Passeig de Gràcia,['L2'],Passeig de Gràcia / Gran Via,1400462291.0,41.3893375,2.1684021
+Passeig de Gràcia,['L4'],Passeig de Gràcia / Gran Via,1400462291.0,41.3899486,2.1679219
+Passeig de Gràcia,['L3'],Passeig de Gràcia / Gran Via,1400462291.0,41.3915853,2.1653415
+Passeig de Gràcia,['L2'],Pau Claris,336914627.0,41.3893375,2.1684021
+Passeig de Gràcia,['L4'],Pau Claris,336914627.0,41.3899486,2.1679219
+Passeig de Gràcia,['L3'],Pau Claris,336914627.0,41.3915853,2.1653415
+Passeig de Gràcia,['L2'],Rambla Catalunya,1400462290.0,41.3893375,2.1684021
+Passeig de Gràcia,['L4'],Rambla Catalunya,1400462290.0,41.3899486,2.1679219
+Passeig de Gràcia,['L3'],Rambla Catalunya,1400462290.0,41.3915853,2.1653415
+Penitents,['L3'],Anna Piferrer,430741887.0,41.4178915,2.1410504
+Penitents,['L3'],Av. Vallcarca,430742480.0,41.4178915,2.1410504
+Penitents,['L3'],Penitents,1445690014.0,41.4178915,2.1410504
+Peu del Funicular,"['S1', 'S2']",Peu del Funicular,,41.4090565,2.1113531
+Plaça Molina,['L7'],Plaça Molina-Balmes,6356084186.0,41.4013198,2.1474244
+Plaça Molina,['L7'],Plaça Molina-Via Augusta,5314614660.0,41.4013198,2.1474244
+Plaça de Sants,['L1'],Alcolea,4444242730.0,41.3754361,2.1374352
+Plaça de Sants,['L1'],Alcolea (Escala mecànica),4455717900.0,41.3754362,2.1370907
+Plaça de Sants,['L1'],Cros,4444242726.0,41.3752683,2.1385651
+Plaça de Sants,['L5'],Galileu,534633413.0,41.3755137,2.135837
+Plaça de Sants,['L1'],Olzinelles,4444242727.0,41.3752989,2.1371771
+Plaça de Sants,['L5'],Plaça de Sants,5314599601.0,41.3756679,2.1350508
+Plaça de Sants,['L1'],Riego,4444242729.0,41.3754171,2.1385598
+Plaça del Centre,['L3'],Plaça del Centre (mar),26636720.0,41.3819231,2.1359048
+Plaça del Centre,['L3'],Plaça del Centre (muntanya),191784425.0,41.3819231,2.1359048
+Poblenou,['L4'],Poblenou,371065161.0,41.4037049,2.2033841
+Port Comercial | La Factoria,['L10S'],Carrer A (costat mar),9232630582.0,41.3359288,2.1407136
+Port Comercial | La Factoria,['L10S'],Carrer A / Carrer 27,9232630581.0,41.3359288,2.1407136
+Provença,"['L7', 'L6', 'S1', 'S2']",Balmes-Provença,1457984742.0,41.392865,2.1579644
+Provença,"['L7', 'L6', 'S1', 'S2']",Balmes-Rosselló,1457984639.0,41.392865,2.1579644
+Pàdua,['L7'],Balmes-Corint,6356083692.0,41.4032843,2.1430466
+Pàdua,['L7'],Balmes-Pàdua,12535154980.0,41.4032843,2.1430466
+Reina Elisenda,['L12'],Duquesa d'Orleans,7110703707.0,41.3987666,2.1190607
+Reina Elisenda,['L12'],Josep Vicenç Foix,7110703705.0,41.3987666,2.1190607
+Rocafort,['L1'],Calàbria / Diputació,1193524928.0,41.3792043,2.1545602
+Rocafort,['L1'],Calàbria / Sepúlveda,1193524870.0,41.3792043,2.1545602
+Rocafort,['L1'],Rocafort / Diputació,1193524875.0,41.3792043,2.1545602
+Rocafort,['L1'],Rocafort / Sepúlveda,1193524949.0,41.3792043,2.1545602
+Roquetes,['L3'],Jaume Pinent,1238021419.0,41.4472929,2.1758397
+Roquetes,['L3'],Les Torres,1238021420.0,41.4472929,2.1758397
+Roquetes,['L3'],Roquetes,338938979.0,41.4472929,2.1758397
+Roquetes,['L3'],Vidal i Guasch,1709838704.0,41.4472929,2.1758397
+Sagrada Família,['L2'],Mallorca / Marina,71709847.0,41.4038705,2.1757208
+Sagrada Família,['L5'],Plaça de la Sagrada Família,320188472.0,41.4034291,2.173411
+Sagrada Família,['L5'],Provença / Avinguda Gaudí,320188474.0,41.4045013,2.1742265
+Sagrada Família,['L5'],Sardenya,983361223.0,41.4036868,2.1730622
+Sant Andreu,['L1'],Joan Torras,1948879957.0,41.4366191,2.1911018
+Sant Andreu,['L1'],Plaça d'Orfila,2034800463.0,41.4366191,2.1911018
+Sant Antoni,['L2'],Sant Antoni Abat,3372312642.0,41.3797847,2.1633175
+Sant Antoni,['L2'],Villarroel,3372312641.0,41.3797847,2.1633175
+Sant Gervasi,"['S1', 'L6', 'S2']",Plaça Molina-Balmes,6356084186.0,41.4010463,2.1471173
+Sant Gervasi,"['S1', 'L6', 'S2']",Plaça Molina-Via Augusta,5314614660.0,41.4010463,2.1471173
+Sant Martí,['L2'],Cantàbria,3370613717.0,41.4190264,2.200775
+Sant Martí,['L2'],Sant Martí,3370613718.0,41.4190264,2.200775
+Sant Pau | Dos de Maig,['L5'],Cartagena,990072193.0,41.4107022,2.1759697
+Sant Pau | Dos de Maig,['L5'],Dos de Maig,990002865.0,41.4107022,2.1759697
+Sants Estació,['L3'],Av. Josep Tarradellas,2657766266.0,41.3810929,2.1419984
+Sants Estació,['L3'],Enric Bargés,2657766267.0,41.3820554,2.1399548
+Sants Estació,['L5'],Estació RENFE / Plaça Joan Peiró,12200067937.0,41.3795911,2.1396495
+Sants Estació,['L5'],Estació RENFE / Plaça dels Països Catalans,12200067934.0,41.3797002,2.139827
+Sants Estació,['L3'],Numància,191786230.0,41.3824087,2.1401589
+Sants Estació,['L3'],Pl. Països Catalans / Numància / Ambulatori,191785584.0,41.380926,2.1416843
+Sarrià,['L12'],Cardenal de Sentmenat,10793625892.0,41.3984719,2.1255406
+Sarrià,"['S1', 'L6', 'S2']",Cardenal de Sentmenat,10793625892.0,41.3985129,2.1255863
+Sarrià,['L12'],Via Augusta-Hort de la Vila,10793638209.0,41.3984719,2.1255406
+Sarrià,"['S1', 'L6', 'S2']",Via Augusta-Hort de la Vila,10793638209.0,41.3985129,2.1255863
+Sarrià,['L12'],Via Augusta-Pau Alcover,5308280357.0,41.3984719,2.1255406
+Sarrià,"['S1', 'L6', 'S2']",Via Augusta-Pau Alcover,5308280357.0,41.3985129,2.1255863
+Selva de Mar,['L4'],Selva de Mar,2764460249.0,41.408044,2.2092038
+Tarragona,['L3'],Aragó,1238021356.0,41.3784645,2.1453145
+Tarragona,['L3'],Elisi,1238021349.0,41.3784645,2.1453145
+Tarragona,['L3'],Tarragona,346726238.0,41.3784645,2.1453145
+Tarragona,['L3'],València,1238021355.0,41.3784645,2.1453145
+Tetuan,['L2'],Casp / Passeig de Sant Joan,319840468.0,41.3948202,2.1756085
+Tetuan,['L2'],Diputació / Passeig de Sant Joan,3910971870.0,41.3948202,2.1756085
+Torras i Bages,['L1'],Palomar / costat mar,1297790811.0,41.4431277,2.1906701
+Torras i Bages,['L1'],Palomar / costat muntanya,1297790744.0,41.4431277,2.1906701
+Torras i Bages,['L1'],Passeig Santa Coloma / costat mar,4444242734.0,41.4431277,2.1906701
+Torras i Bages,['L1'],Passeig Santa Coloma / costat muntanya,4444242733.0,41.4431277,2.1906701
+Torre Baró | Vallbona,['L11'],Avinguda d'Escolapi Càncer,7078016966.0,41.4591981,2.1799472
+Torre Baró | Vallbona,['L11'],Sant Feliu de Codines,7078630501.0,41.4591981,2.1799472
+Trinitat Nova,"['L11', 'L4']",Aiguablava,2447052310.0,41.4489868,2.1820815
+Trinitat Nova,"['L11', 'L4', 'L3']",Palamós,1238021422.0,41.4494083,2.1844222
+Trinitat Nova,"['L11', 'L4', 'L3']",Pedrosa,2447052311.0,41.449249,2.1832893
+Trinitat Vella,['L1'],Parc de la Trinitat,4449336729.0,41.448698,2.1936947
+Trinitat Vella,['L1'],Via de Bàrcino,4449336731.0,41.448698,2.1936947
+Universitat,['L2'],Pelai,4444242720.0,41.3847222,2.1639576
+Universitat,['L1'],Pelai,4444242720.0,41.3856859,2.1641092
+Universitat,['L2'],Plaça Universitat,3316542526.0,41.3847222,2.1639576
+Universitat,['L1'],Plaça Universitat,3316542526.0,41.3856859,2.1641092
+Universitat,['L2'],Ronda Sant Antoni,3372312640.0,41.3847222,2.1639576
+Universitat,['L1'],Ronda Sant Antoni,3372312640.0,41.3856859,2.1641092
+Universitat,['L2'],Ronda Universitat,4444242721.0,41.3847222,2.1639576
+Universitat,['L1'],Ronda Universitat,4444242721.0,41.3856859,2.1641092
+Urgell,['L1'],Comte d'Urgell,2327704780.0,41.3824781,2.1589124
+Urgell,['L1'],Urgell,5318185788.0,41.3824781,2.1589124
+Urgell,['L1'],Villaroel / Diputació,2327704781.0,41.3824781,2.1589124
+Urgell,['L1'],Villarroel / Sepúlveda,429285314.0,41.3824781,2.1589124
+Urquinaona,['L1'],Bruc,3311911811.0,41.3899779,2.1750131
+Urquinaona,['L4'],Jonqueres,4334307537.0,41.387598,2.1742856
+Urquinaona,['L4'],Plaça Urquinaona,430984228.0,41.3887877,2.1727987
+Urquinaona,['L1'],Plaça Urquinaona,4444242722.0,41.3893636,2.1734278
+Urquinaona,['L1'],Trafalgar,3311911812.0,41.3891537,2.1738205
+Vall d'Hebron-Sant Genís,"['L5', 'L3']",Avinguda Jordà,899751420.0,41.4247859,2.1417742
+Vall d'Hebron-Sant Genís,['L3'],Mercat de Vall d'Hebron,1238021409.0,41.4248394,2.1429499
+Vall d'Hebron-Sant Genís,['L3'],Residència Sanitària,1238021410.0,41.4250272,2.141983
+Vall d'Hebron-Sant Genís,['L3'],Vall d'Hebron-Sant Genís,1933607879.0,41.4252818,2.1421068
+Vall d’Hebron | Sant Genís,['L3'],Vall d’Hebron | Sant Genís,,41.4247903,2.1423602
+Vall d’Hebron | Sant Genís,['L5'],Vall d’Hebron | Sant Genís,,41.4249293,2.1425432
+Vallcarca,['L3'],Avinguda Vallcarca + Park Güell,430742651.0,41.4118991,2.1444872
+Vallcarca,['L3'],Avinguda de la República Argentina,430742700.0,41.4118991,2.1444872
+Vallcarca,['L3'],Gomis,1357271840.0,41.4118991,2.1444872
+Valldaura,['L3'],Passeig Valldaura,1238021416.0,41.4379957,2.1569711
+Verdaguer,"['L5', 'L4']",Avinguda Diagonal,1311619387.0,41.3984643,2.1661952
+Verdaguer,"['L5', 'L4']",Bailèn,6077341456.0,41.3990806,2.1675307
+Verdaguer,"['L5', 'L4']",Girona,2530684912.0,41.398689,2.1661337
+Verdaguer,"['L5', 'L4']",Pg. Sant Joan,3311911808.0,41.3999321,2.168703
+Via Júlia,['L4'],Via Júlia / Argullós,2684909323.0,41.4437594,2.1785798
+Via Júlia,['L4'],Via Júlia / Joaquim Valls,2684909319.0,41.4437594,2.1785798
+Vilapicina,['L5'],Vilapicina,5282814498.0,41.4304252,2.1681746
+Virrei Amat,['L5'],Av. Els Quinze,3624788593.0,41.4296475,2.1749158
+Virrei Amat,['L5'],Dr. Pi i Molist,3624761447.0,41.4296475,2.1749158
+Virrei Amat,['L5'],Felip II,3624794400.0,41.4296475,2.1749158
+Virrei Amat,['L5'],Pg. Fabra i Puig,3624755084.0,41.4296475,2.1749158
+Virrei Amat,['L5'],Pl. Virrei Amat,4613961906.0,41.4296475,2.1749158
+Virrei Amat,['L5'],Virrei Amat,4613961949.0,41.4296475,2.1749158
+ZAL | Riu Vell,['L10S'],Carrer A / Carrer 5,9232630596.0,41.323725,2.1331944
+ZAL | Riu Vell,['L10S'],Riu Llobregat,9232630593.0,41.323725,2.1331944
+ZAL | Riu Vell,['L10S'],ZAL,9232630594.0,41.323725,2.1331944
+Zona Franca,['L10S'],Carrer A / Carrer 1,9442014170.0,41.3429754,2.145045
+Zona Franca,['L10S'],Carrer A / Carrer 2,9442014173.0,41.3429754,2.145045
+Zona Universitària,"['L9 Sud', 'L3']",Av. Diagonal,772095912.0,41.3841634,2.1116203
+Zona Universitària,['L9 Sud'],Diagonal - Dr. Marañón,8118853250.0,41.3842006,2.1117655
+Zona Universitària,['L9 Sud'],Dr. Marañón,8118853254.0,41.3840029,2.1118456
+Zona Universitària,['L3'],Facultat d'Economia,9545433013.0,41.3845143,2.1115868
+Zona Universitària,"['L9 Sud', 'L3']",Parc de Cervantes,191802559.0,41.3844966,2.111509
+el Carmel,[nan],Llobregós,2653977025.0,41.4236101,2.1549438
+el Carmel,[nan],Pl. Pastrana,2653977027.0,41.4254051,2.1561543
+el Carmel,[nan],Pl. Pastrana (ascensor),8434193141.0,41.4252642,2.1562695
+el Carmel,['L5'],el Carmel,,41.4244001,2.1550912
+el Clot,['L1'],Aragó / Meridiana,1297490054.0,41.4101801,2.1868931
+el Clot,['L2'],Aragó / Meridiana,1297490054.0,41.4102552,2.1867249
+el Clot,['L1'],Sibelius,401882325.0,41.4101801,2.1868931
+el Clot,['L2'],Sibelius,401882325.0,41.4102552,2.1867249
+el Clot,['L1'],València,401882326.0,41.4101801,2.1868931
+el Clot,['L2'],València,401882326.0,41.4102552,2.1867249
+les Corts,['L3'],Joan Güell,1445665637.0,41.3841392,2.1308387
+les Corts,['L3'],Travessera de les Corts,2657766268.0,41.3841392,2.1308387
+les Corts,['L3'],les Corts,4682139408.0,41.3841392,2.1308387

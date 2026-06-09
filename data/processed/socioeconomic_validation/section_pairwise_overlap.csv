@@ -1,0 +1,16 @@
+﻿file_a,file_b,n_keys_a,n_keys_b,intersection,only_a,only_b,intersection_pct_vs_a,intersection_pct_vs_b
+socioeconomic_census_section_income.csv,socioeconomic_census_section_population_sex_age.csv,3642,1068,1068,2574,0,0.2932454695222405,1.0
+socioeconomic_census_section_income.csv,socioeconomic_census_section_education.csv,3642,1068,1068,2574,0,0.2932454695222405,1.0
+socioeconomic_census_section_income.csv,socioeconomic_census_section_household_size.csv,3642,1068,1068,2574,0,0.2932454695222405,1.0
+socioeconomic_census_section_income.csv,socioeconomic_census_section_non_spanish_population.csv,3642,1068,1068,2574,0,0.2932454695222405,1.0
+socioeconomic_census_section_income.csv,socioeconomic_census_section_car_ownership.csv,3642,1068,1068,2574,0,0.2932454695222405,1.0
+socioeconomic_census_section_population_sex_age.csv,socioeconomic_census_section_education.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_population_sex_age.csv,socioeconomic_census_section_household_size.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_population_sex_age.csv,socioeconomic_census_section_non_spanish_population.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_population_sex_age.csv,socioeconomic_census_section_car_ownership.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_education.csv,socioeconomic_census_section_household_size.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_education.csv,socioeconomic_census_section_non_spanish_population.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_education.csv,socioeconomic_census_section_car_ownership.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_household_size.csv,socioeconomic_census_section_non_spanish_population.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_household_size.csv,socioeconomic_census_section_car_ownership.csv,1068,1068,1068,0,0,1.0,1.0
+socioeconomic_census_section_non_spanish_population.csv,socioeconomic_census_section_car_ownership.csv,1068,1068,1068,0,0,1.0,1.0

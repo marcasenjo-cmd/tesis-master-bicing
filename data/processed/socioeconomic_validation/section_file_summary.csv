@@ -1,0 +1,7 @@
+﻿file,type,exists,has_census_section,rows,raw_non_null,std_non_null,raw_unique,std_unique,std_duplicates_rows,std_duplicate_keys,raw_min_len,raw_max_len,raw_length_values,std_min_len,std_max_len,std_length_values,sample_raw_1,sample_std_1
+socioeconomic_census_section_income.csv,section,True,True,3642,3642,3642,3642,3642,0,0,9,9,9,10,10,10,800101001,0800101001
+socioeconomic_census_section_population_sex_age.csv,section,True,True,1068,1068,1068,1068,1068,0,0,9,9,9,10,10,10,801901001,0801901001
+socioeconomic_census_section_education.csv,section,True,True,1068,1068,1068,1068,1068,0,0,9,9,9,10,10,10,801901001,0801901001
+socioeconomic_census_section_household_size.csv,section,True,True,1068,1068,1068,1068,1068,0,0,9,9,9,10,10,10,801901001,0801901001
+socioeconomic_census_section_non_spanish_population.csv,section,True,True,1068,1068,1068,1068,1068,0,0,9,9,9,10,10,10,801901001,0801901001
+socioeconomic_census_section_car_ownership.csv,section,True,True,1068,1068,1068,1068,1068,0,0,9,9,9,10,10,10,801901001,0801901001
