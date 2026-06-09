@@ -1,0 +1,215 @@
+"""
+Main module for creating interactive maps of BSS station solutions.
+"""
+
+import os
+import sys
+from pathlib import Path
+import folium
+import geopandas as gpd
+import osmnx as ox
+
+# Add project root to the path
+project_root = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(project_root))
+
+from paths import *
+import src.data_loader as dl
+import src.optimization.helper_optimization as ho
+from src.results_exploration.interactive_map.data_loader import load_best_solution, load_weights, load_datasets
+from src.results_exploration.interactive_map.map_generator import generate_map
+from src.results_exploration.interactive_map.spatial_layers import add_variable_areas_to_map
+from src.results_exploration.interactive_map.node_features import add_nodes_to_map
+from src.results_exploration.interactive_map.edge_features import add_edges_to_map
+from src.results_exploration.interactive_map.graph_analyzer import calculate_paths_and_distances, generate_pair_colors
+from src.results_exploration.interactive_map.interactive_js import add_all_interactive_features
+
+
+def create_interactive_map(solution=None, weights=None, city_name="Barcelona", experiment_path=None):
+    """
+    Create an interactive map visualizing the station solution.
+    
+    Args:
+        solution (list, optional): List of node IDs to visualize (will load best solution if None)
+        weights (dict, optional): Dictionary of weights to use for the map
+        city_name (str, optional): Name of the city to load data for and save the map
+        experiment_path (str, optional): Path to the experiment results
+        
+    Returns:
+        folium.Map: The created interactive map
+    """
+    # Load data
+    if solution is None:
+        solution = load_best_solution(experiment_path=experiment_path)
+    
+    if weights is None:
+        weights = load_weights(experiment_path=experiment_path)
+        weights = {'population': 1}
+    
+    data = load_datasets(city_name, weights)
+    
+    # Create base map
+    m, colormap = generate_map(data['df_weighted'], city_name=city_name)
+
+    # Generate colors for node pairs
+    colors = generate_pair_colors(solution)
+    
+    # Add JavaScript for interactivity
+    add_all_interactive_features(m)
+
+    # Calculate paths and distances
+    all_paths, all_distances = calculate_paths_and_distances(
+        solution, 
+        data['G'], 
+        data['distance_matrix'], 
+        data['id_to_idx'], 
+        data['idx_to_id']
+    )
+    
+    # Add edges to map
+    add_edges_to_map(
+        m, 
+        solution, 
+        data['df_weighted'], 
+        all_paths, 
+        all_distances, 
+        colors, 
+        data['id_to_idx']
+    )
+    
+    # Add nodes to map
+    add_nodes_to_map(
+        m, 
+        solution, 
+        data['df_weighted'], 
+        data['df_raw'], 
+        all_distances, 
+        data['id_to_idx'], 
+        colormap,
+        weights
+    )
+
+    # Add spatial variable to map (with explicit low z-index to ensure they're at bottom)
+    add_variable_areas_to_map(m, data['df_socio_census'], weights)
+    add_variable_areas_to_map(m, data['df_socio_nei'], weights)
+    add_variable_areas_to_map(m, data['df_bike_lanes'], weights)
+    add_variable_areas_to_map(m, data['df_pois'], weights)
+    add_variable_areas_to_map(m, data['bcn_buildings'], weights)
+    add_variable_areas_to_map(m, data['pt']['bus'], weights)
+    add_variable_areas_to_map(m, data['pt']['tram'], weights)
+    add_variable_areas_to_map(m, data['pt']['metro'], weights)
+
+
+    # Add layer control
+    folium.LayerControl().add_to(m)
+      
+    return m
+
+if __name__ == "__main__":
+    # Set default values
+    output_file = '/home/src/results_exploration/zmap.html'
+    root = '../../../'
+    experiment_path = f'{PR_EXP}/BSS_ampliation/'
+
+    weights = {
+        'bus_lines': 0.2, 
+        'metro_lines': 0.2, 
+        'tram_lines': 0.1, 
+        'pois_total': 0.4, 
+        'bike_lane_kms': 0.1,
+    }
+    
+    solution = [
+        219011772, 178514518, 876277535, 856946776, 9580000104, 771231835, 
+        1514106961, 30264251, 3976600107, 30248582, 30558252, 692247881, 30294856, 
+        432467110, 288026013, 6875270374, 692807411, 535228353, 1584415356, 
+        583257390, 2923420936, 381897082, 4834501669, 7687884821, 21638855, 
+        689472720, 4357304651, 2511218703, 30343411, 4374355159, 2765771559, 
+        3237622873, 449385486, 30617733, 1261314965, 2450896005, 627782657, 
+        482511832, 366213476, 769906812, 425635752, 947908716, 2983305742, 
+        1303430145, 30689100, 1695282572, 1046607404, 6248982161, 7042621941, 
+        6174609737, 2189785039, 1479390232, 30558451, 30556269, 126803334, 21638845, 
+        2291722035, 2473421338, 543552897, 347344140, 4346093747, 5344717246, 
+        3133167978, 6227506608, 429742266, 600466286, 600061525, 462635549, 1852044988, 
+        5225442144, 765910344, 597933742, 765910378, 4307026176, 2191082993, 243345600, 
+        876277542, 385664092, 30689525, 2075448033, 365566120, 2473393884, 1940583260, 
+        243338876, 543552915, 5085600085, 2914248662, 559424460, 2786421958, 559052399, 
+        11301321032, 2767286547, 2767286543, 390057404, 30264549, 7159610203, 8491969813, 
+        8090004633, 11288315069, 178522246, 8221718708, 178508430, 506223345, 8220463930, 
+        441668045, 2779540025, 364992715, 8196838051, 10167850229, 4749816261, 293407668, 
+        262250623, 6124906169, 4803419629, 10688083688, 1044543194, 2767286525, 
+        10245096170, 870495153, 4477165112, 8962005756, 4921394383, 4921394372, 
+        4471046739, 630597049, 7823334855, 430537477, 5394341508, 1469237415, 
+        247637636, 30253584, 8491969812, 11291330438, 1982155704, 693864929, 
+        3230125668, 6600925577, 11364006811, 30313179, 8806509929, 30313367, 30254393, 
+        9250200867, 126798008, 6248982158, 553098856, 6041313238, 30343623, 191879301, 
+        6099838346, 4921394393, 8121510030, 30295096, 4538131127, 2264456435, 2407326945, 
+        10121889947, 30243449, 6744513186, 769906809, 6099715640, 178520716, 
+        10045088390, 1377806816, 1375265179, 4040070235, 2767355570, 1303430343,
+        423434715, 598224597, 598225121, 8253197788, 694837852, 885308294, 10194501099,
+        11909386196, 870495187, 1401306391, 11443196031, 30960828, 4251840143, 420892535,
+        30296789, 2764754922, 1312053345, 5216444723, 4829302270, 1727171543, 7628276053,
+        3825223113, 2708786214, 1840720973, 4435194975, 7497392703, 4171919399, 7383536132,
+        10000125873, 1299629083, 3823645381, 1046613006, 4613974924, 960619358, 415994538,
+        2775377128, 903833789, 2020404323, 359236302, 1857472166, 598224356, 420892553,
+        4675111319, 30254052, 30295271, 30555009, 364989976, 59749808, 30294451, 5402582936,
+        10598595636, 8267737459, 457361177, 1531776760, 533662625, 4111688786, 1695282664,
+        4826990973, 947908702, 5448500343, 30314491, 359234349, 30313444, 417813658, 
+        1381889435, 1313793453, 1313997587, 412437296, 8491969764, 412436531, 
+        8491969800, 359236960, 6181445676, 6093393778, 960996563, 1141475341, 506131380,
+        1809672238, 8127333264, 6906379656, 9873768080, 598221291, 2111252106, 387127544,
+        256484346, 1303465785, 904641321, 6898636210, 10784718141, 412547386, 412448105,
+        3827708483, 412442324, 30333341, 60969459, 4229056903, 4584732464, 9250200864,
+        849592995, 2077949582, 30295814, 262251754, 10230554843, 30343459, 30558181,
+        30617807, 2779540016, 4436904076, 1469158170, 598223868, 1589583571, 938093325,
+        30558393, 30294473, 192068604, 4992887935, 11420682172, 4513430907, 1857695693,
+        11992119725, 6126651563, 1127100737, 30884340, 100451083, 82040343, 21638878,
+        31286309, 5306386384, 11256494954, 4911354441, 1484164576, 448786042, 2936643038,
+        21638865, 30294784, 5726734782, 401798222, 4907860891, 6126653861, 420892551,
+        903833768, 104459413, 1357271796, 10308954439, 7040185452, 598222073, 1401485312,
+        30295422, 4829396043, 1501426324, 3055187869, 8373397208, 823781730, 8174151452,
+        770847795, 30558545, 8440529634, 9565645267, 2020384033, 2560087403, 1469158162,
+        6143262735, 841867115, 1904455769, 30294483, 30313358, 775644929, 8176699545,
+        365565831, 30554607, 2013654036, 216321612, 7326548162, 539147489, 5538169689,
+        4800929926, 12255820987, 7008813675, 4538131156, 390057402, 30556625, 1046599571,
+        387127704, 1126998888, 4416582754, 790024592, 824497180, 457361210, 168330688,
+        7313648288, 2665264315, 11372396359, 1141475385, 31285283, 30647907, 243338866,
+        2063950768, 216355606, 100455136, 390057401, 434423009, 506242639, 7340701542,
+        2767286502, 30312951, 9696930748, 71710267, 938093330, 4471046726, 30553750,
+        2105836393, 6869488576, 3196795874, 30244000, 366066655, 30312388, 1501426310,
+        4229014410, 10167420372, 6238761468, 1528727078, 5216444728, 5216444735, 567448071,
+        8067467992, 3005325687, 629334371, 3805966095, 412442591, 3713397787, 243749814,
+        30243958, 1621899823, 3664082942, 11119050635, 11306286094, 572085967, 600061446,
+        30227373, 3587718237, 3662616995, 506223399, 1400465774, 104461036, 1400465768,
+        2929997863, 11466476299, 12309522700, 442540235, 9591512262, 2464729474, 7638160453,
+        3314271848, 30237645, 10823885055, 11788098347, 2501701062, 112399403, 11174857163, 
+        4716376696, 9141342624, 7529938028, 1286855176, 12229016277, 6762254059, 9139818404,
+        9803583623, 3236553579, 3134509203, 9782235359, 7526529980, 11371360364, 1379087659,
+        431488440, 1485622310, 30243368, 7515360160, 8941504710, 426890153, 30246711,
+        7530007200, 1482241217, 10182235275, 2905939348, 11225278452, 3193317991, 10230402332,
+        243339565, 3047641937, 12215007590, 4717526568, 1303457341, 5308938572,
+        30247167, 10967898498, 12125059228, 11020963044, 3821190143, 3677302438,
+        7159588923, 3236553574, 10177414030, 12228628368, 1845692293, 30243333,
+        30246670, 10182235269, 30243065, 3184350968, 4834214392, 10230438650,
+        3697148739, 10606074142, 5801456351, 11668816230, 11032312993, 8935152074, 
+        30253573, 30242760, 30243042, 30243244, 12228666194, 9449692441, 11174807832,
+        6863829468, 252825017, 1303457386, 10181609597, 12228551542, 10177367824, 
+        8194970010, 2813138020, 6670690974, 3601249498, 5794183354, 30237867, 2714793260,
+        12351352583, 30254085, 6509353416, 12255285148, 1311773901, 6377912143, 7526564088,
+        8493100196, 6259366125, 11174857141, 12228543993, 30237587, 30237629
+    
+    ]
+
+
+
+    # Create the map
+    m = create_interactive_map(
+        city_name="Barcelona",
+        solution=solution,
+        weights=weights
+    )
+        
+    # Save the map
+    m.save(output_file)
+
+    print(f"Interactive map created and saved to {output_file}")

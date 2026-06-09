@@ -1,0 +1,17 @@
+# Weight Combinations based on the Bikeshare Planning Guide of 2018
+
+weight_combinations:
+  s1: # max demand coverage
+    population: 0.4
+    pois_total: 0.35
+    pois_entropy: 0.25
+  s2: # increase access to public transport
+    bus_lines: 0.2
+    metro_lines: 0.2
+    tram_lines: 0.1
+    pois_total: 0.4
+    bike_lane_kms: 0.1
+  s3: # social equity
+    income_2022_pers: 0.4
+    unemployment: 0.3
+    education_primary: 0.3
