@@ -1,7 +1,5 @@
 # tesis-master-bicing
 
-# tesis-master-bicing
-
 Repositorio asociado a la tesis de máster de **Marc Asenjo**, centrada en el análisis territorial y predictivo de la ocupación de estaciones del sistema **Bicing** de Barcelona.
 
 El proyecto combina datos abiertos de movilidad, información territorial, variables socioeconómicas y análisis geoespacial para construir un **índice explicativo territorial por estación** y estudiar su relación con la **ocupación de las estaciones de Bicing**. Además, se desarrolla un modelo predictivo para analizar hasta qué punto las características del entorno urbano permiten explicar o anticipar patrones de disponibilidad y uso del sistema.
