@@ -12,9 +12,14 @@ El objetivo principal es evaluar si existe una relación significativa entre el 
 
 De forma más concreta, el proyecto busca:
 
-- Construir un dataset maestro por estación de Bicing.
+- Construir un dataset maestro por estación de Bicing. (\data\processed\stationsbicing_station_master_2026_03)
 - Integrar variables urbanas, territoriales y socioeconómicas.
-- Calcular un índice explicativo territorial asociado a cada estación.
+- Calcular un índice explicativo territorial asociado a cada estación. (I_i = wA·A_i + wS·S_i + wC·C_i + wM·M_i + wP·P_i
+A_i = accesibilidad / conectividad
+S_i = factores socioeconómicos
+C_i = cardinalidad / centralidad / densidad de nodos
+M_i = modularidad o estructura espacial de red
+P_i = componente predictiva relacionada con ocupación/demanda)
 - Analizar la correlación entre variables explicativas y ocupación.
 - Detectar problemas de multicolinealidad entre variables.
 - Entrenar modelos predictivos para estimar variables relacionadas con la ocupación.
